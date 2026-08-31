@@ -1,0 +1,31 @@
+cat > .gitignore << 'EOF'                                                                                                                                                          
+    # Virtual Environments                                                                                                                                                             
+    venv/                                                                                                                                                                              
+    env/                                                                                                                                                                               
+    __pycache__/                                                                                                                                                                       
+    *.pyc   
+
+
+# Model Weights (Too large for GitHub) - IGNORE ENTIRE DIRECTORIES                                                                                                                 
+local_models/                                                                                                                                                                      
+models/.cache/  
+models/*.joblib                                                                                                                                                                   
+*.gguf                                                                                                                                                                             
+                                                                                                                                                                                
+# SSH Keys & Secrets                                                                                                                                                               
+*.key                                                                                                                                                                              
+                                                                                                                                                                                
+# Large Data                                                                                                                                                                       
+data/t5_training_data/                                                                                                                                                             
+data/*.npy                                                                                                                                                                         
+data/WhoQA.json                                                                                                                                                                    
+                                                                                                                                                                                
+# IDE/OS                                                                                                                                                                           
+.marscode/                                                                                                                                                                         
+.DS_Store                                                                                                                                                                          
+EOF    
+
+
+# Large Data (Optional, uncomment if you want to exclude them)
+ data/WhoQA.json
+# data/t5_training_data/

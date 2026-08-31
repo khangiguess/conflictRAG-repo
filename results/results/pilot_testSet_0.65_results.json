@@ -1,0 +1,3202 @@
+[
+  {
+    "id": "nomiracl-test-16",
+    "question": "How large is the Kerman province of southeastern Iran?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6512210369110107,
+      0.9790865778923035,
+      0.0,
+      0.0,
+      0.3,
+      0.45
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-37",
+    "question": "oh wow so they are all away from me  I live in Texas",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.65
+    ],
+    "generated_text": "Well, it's possible that they may not be readily available in Texas, but I wouldn't say for certain. The fact that they stock 7,000 candies from around the world doesn't necessarily mean they don't have any in Texas, it just means they have a wide selection. I'd need more information to confirm whether they have a presence in Texas or not.",
+    "gold_answer": "I see, would you find it interesting to know that they have thousands of candies from the world?"
+  },
+  {
+    "id": "conflictqa-test-201",
+    "question": "In what city was Paul Walker born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.31900668144226074,
+      0.8766475319862366,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Paul Walker. According to the first passage, Paul Walker was born in the city of Glendale, Los Angeles County. However, the second passage states that he was born in The Crossroads of Ayrshire, Irvine, Scotland, according to his birth certificate.",
+    "gold_answer": "['Kilwinning', 'The Crossroads of Ayrshire']"
+  },
+  {
+    "id": "faithdial-disc-43",
+    "question": "I guess whoever knocks down the most pins wins? I've heard them talking about spares and strikes. What are they?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.0
+    ],
+    "generated_text": "In bowling, a strike is when all 10 pins are knocked down on the first roll, and a spare is when all 10 pins are knocked down on the second shot.",
+    "gold_answer": "Well, I can't confirm how the game is won, but I do know that a strike happens when you  knock down every pin on the first roll"
+  },
+  {
+    "id": "conflictqa-test-211",
+    "question": "In what city was Glover Morrill Allen born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.42791175842285156,
+      0.9894254207611084,
+      0.0,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Glover Morrill Allen. According to one source, he was born in Hudson, New Hampshire, on August 23, 1879. However, another source, which includes a birth certificate and local newspaper articles, states that he was born in Walpole, New Hampshire, on June 12, 1898. The exact birthplace and date of birth of Glover Morrill Allen cannot be confirmed due to the conflicting information.",
+    "gold_answer": "['Walpole', 'Walpole, New Hampshire', 'Walpole N.H.', 'Walpole NH']"
+  },
+  {
+    "id": "conflictqa-test-221",
+    "question": "In what city was Nikolai Kinski born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.27279412746429443,
+      0.9875125288963318,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Nikolai Kinski. According to one source, he was born in Paris, while another source claims he was born in Hammelburg, a small Bavarian town in Germany. The official biography and reputable online sources such as IMDb and Wikipedia also list Hammelburg as his birthplace. Therefore, the correct answer is Hammelburg, but it's worth noting that there is a discrepancy between the sources.",
+    "gold_answer": "['Paris', 'City of Light', 'Paris, France']"
+  },
+  {
+    "id": "faithdial-ans-13",
+    "question": "It's almost the best time of year. the first kickoff of American Football season.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.7
+    ],
+    "generated_text": "The first match of American football was played on November 6, 1869.",
+    "gold_answer": "And to just think; the first match of American football was played on November 6, 1869!"
+  },
+  {
+    "id": "faithdial-ans-2",
+    "question": "I see, do they have nougat? I love nougat!",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "I'm not entirely sure about the specific flavors they offer, but I can try to look into that for you. However, I can tell you that the store is owned by Dylan Lauren, daughter of Ralph Lauren, which might suggest a certain level of sophistication and attention to detail in their offerings. But as for nougat specifically, I wouldn't want to make any promises.",
+    "gold_answer": "I couldn't really say, but they're owned by the daughter of Ralph Lauren, Dylan Lauren."
+  },
+  {
+    "id": "nomiracl-test-14",
+    "question": "Which US state has no speed limit?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4772478938102722,
+      0.9847875237464905,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-44",
+    "question": "What would you say were his greatest hits?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.4
+    ],
+    "generated_text": "Based on the available information, it's difficult to pinpoint specific \"greatest hits\" without more context or evidence. However, it's possible that some of his notable recordings from 1954 at Sun Records may have been successful, but without further information, it's hard to say for certain.\n\nIt's also worth noting that the passage mentions Sam Phillips' goal of bringing African American music to a wider audience, which suggests that the artist may have been part of a larger movement or trend in the music industry at the time. But without more specific details, it's challenging to identify any particular songs or albums as his \"greatest hits.\"",
+    "gold_answer": "I don't actually know his hits, but I know he started his music career in 1954."
+  },
+  {
+    "id": "conflictqa-test-236",
+    "question": "In what city was J\u00e1nos Ferencsik born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.2524029016494751,
+      0.9881817698478699,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I'm afraid there's a conflict in the sources. According to the first passage, J\u00e1nos Ferencsik was born in Budapest, Hungary. However, the second passage states that he was actually born in Berthierville, a small town in Quebec, Canada.\n\nIt seems that the sources disagree on this point, and I'm unable to provide a definitive answer. Further research or clarification is needed to resolve this discrepancy.",
+    "gold_answer": "['Budapest', 'Buda Pest', 'Buda-Pest', 'Budape\u0161\u0165', 'Budapesta', 'Budapeszt', 'Buda', 'Ofen', 'Bud\u00edn', 'Budim', 'Budon', 'Pest', 'Pe\u0161\u0165', 'Pe\u0161ta', '\u00d3buda', 'Alt-Ofen', 'K\u0151b\u00e1nya']"
+  },
+  {
+    "id": "faithdial-disc-20",
+    "question": "Millennials have no taste in entertainment.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "I must provide a hedged answer based on the available evidence, which may be incomplete. While the Nielsen ratings indicate that the show is popular among a certain audience, it's difficult to make a definitive statement about the taste in entertainment of an entire demographic, such as millennials.\n\nIt's possible that the show's appeal to a broad audience, including millennials, suggests that they do have a taste in entertainment, but it's also possible that the show's niche appeal or the demographics of the viewership may not be representative of the entire millennial population.\n\nTherefore, I would say that the available evidence does not provide sufficient grounds to make a definitive statement about millennials' taste in entertainment.",
+    "gold_answer": "Well, for the Nelson rating, the show ranks really high so that's is why AMC renews it yearly."
+  },
+  {
+    "id": "conflictqa-test-228",
+    "question": "In what city was Roland Wieser born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4995376467704773,
+      0.9081150889396667,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on this point. According to the first passage, Roland Wieser's birthplace is Vienna, Austria, which is mentioned as a possible influence on his upbringing and interests. However, the second passage clearly states that Roland Wieser was born in Zschopau, a small town in the eastern part of Germany, according to his birth certificate and passport.\n\nTherefore, the answer is: Zschopau, Germany.",
+    "gold_answer": "['Zschopau']"
+  },
+  {
+    "id": "nomiracl-test-26",
+    "question": "What is the average age that people have their first child in the UK?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6340677738189697,
+      0.9511264562606812,
+      0.0,
+      0.0,
+      0.3,
+      0.7
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-8",
+    "question": "Harry Potter is one of the enduring books that has ever been written in the modern history. Words can describe how fascinated I am by this novel",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      1.35
+    ],
+    "generated_text": "The passage doesn't explicitly state that Harry Potter is one of the enduring books in modern history, but it does confirm that it is a series of fantasy novels written by J.K. Rowling.",
+    "gold_answer": "That's neat to hear, are you a fan of its author too? J. K. Rowling?"
+  },
+  {
+    "id": "faithdial-disc-17",
+    "question": "I ride for transportation.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.2
+    ],
+    "generated_text": "It's possible that you are a cyclist, but I wouldn't want to make any definitive conclusions based on the available information.",
+    "gold_answer": "I see, so you would be called a cyclist or biker or sometimes bicyclist since you are cycling."
+  },
+  {
+    "id": "faithdial-ans-45",
+    "question": "When did he die?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.2
+    ],
+    "generated_text": "Based on the available evidence, Elvis Aaron Presley is reported to have passed away on August 16, 1977. However, it's worth noting that the exact circumstances and details surrounding his death may not be fully known or disclosed, and this information may be subject to interpretation or further investigation.",
+    "gold_answer": "He died in 1977."
+  },
+  {
+    "id": "conflictqa-test-230",
+    "question": "In what city was Doc Parker born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6545920968055725,
+      0.9732453227043152,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": "['Theresa', 'Theresa, New York']"
+  },
+  {
+    "id": "faithdial-ans-30",
+    "question": "Do you like medical science or have you ever considered being a paramedic?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.65
+    ],
+    "generated_text": "I'm not sure if I'd say I \"like\" medical science, but I do find it fascinating. As for being a paramedic, I think it's a complex and challenging profession that requires a great deal of skill and training. While I can appreciate the importance of their work, I'm not sure if it's something I would consider pursuing myself, given the high-stress nature of the job and the need for quick decision-making in emergency situations.",
+    "gold_answer": "No, are you interested in working in a pre-hospital or out-of-hospital environment, since that is where paramedics are mainly."
+  },
+  {
+    "id": "faithdial-ans-3",
+    "question": "I like to drink protein shakes before my workout.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, it's possible that consuming protein-rich beverages before a workout may be beneficial, but it's also worth noting that the ancient Greek advice to athletes was to consume large quantities of meat and wine, which may not be directly comparable to modern-day protein shakes. Additionally, the Greek advice was likely influenced by their cultural and nutritional understanding at the time, which may not be applicable to contemporary fitness practices. So, while it's possible that protein shakes may be a useful supplement for athletes, it's also important to consider the potential limitations and uncertainties of this approach.",
+    "gold_answer": "What about consuming meat before your workout? In ancient Greece, athletes were told to consume a lot of meat and wine"
+  },
+  {
+    "id": "faithdial-disc-9",
+    "question": "I love the color green. It is my favorite color!",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "That's a personal preference!",
+    "gold_answer": "Does the color green make you think of certain foods? I know that color can influence perceptions such as taste of food"
+  },
+  {
+    "id": "faithdial-ans-15",
+    "question": "Strange now those are college teams and not NFL",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, it appears that the game played on November 6, 1869, between Rutgers and Princeton was indeed a precursor to American football, but it's not entirely clear if it was directly related to the modern-day NFL. The passage mentions that the rules were based on association football rules of the time, which suggests that there may have been some evolution of the game over the years. However, without more information, it's difficult to say for certain how closely this early game was connected to the NFL. It's possible that the game was more of a precursor to the development of American football as a whole, rather than a direct precursor to the NFL specifically.",
+    "gold_answer": "They were college teams then too."
+  },
+  {
+    "id": "faithdial-ans-42",
+    "question": "Does heartbreak usually lead to depression?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "While there is some evidence to suggest that the neurological processes involved in heartache may overlap with those of depression, it's difficult to say with certainty whether heartbreak usually leads to depression. The passage mentions the anterior cingulate cortex and the vagus nerve, which are also implicated in depression, but it does not provide direct evidence of a causal link between heartbreak and depression. It's possible that heartbreak may contribute to the development of depression in some individuals, but more research is needed to fully understand the relationship between the two.",
+    "gold_answer": "Well, overstimulation from heartache may cause nausea or pain or muscle tightness in your chest but I don't know about depression."
+  },
+  {
+    "id": "conflictqa-test-226",
+    "question": "In what city was Pierre Charette born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.43898963928222656,
+      0.9808844327926636,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I'm afraid there's a conflict in the sources. According to the first passage, Pierre Charette's birthplace in Montreal may have influenced his upbringing and career choices. However, the second passage states that Pierre Charette was indeed born in Masson-Angers, as evidenced by his birth certificate.\n\nIt appears that the sources disagree on the birthplace of Pierre Charette. While the first passage suggests Montreal, the second passage confirms Masson-Angers. I'm unable to provide a definitive answer to the question.",
+    "gold_answer": "['Masson-Angers']"
+  },
+  {
+    "id": "faithdial-disc-36",
+    "question": "Yeah I heard about those. Never listened tho",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.4
+    ],
+    "generated_text": "Well, they're a pretty well-known band, but I wouldn't say they're necessarily the most critically acclaimed or widely listened to. They've had some commercial success, though - over 100 million records sold worldwide, which is a significant number. But, of course, that's just one measure of their impact.",
+    "gold_answer": "I see, did you hear how they have sold over 100 million records around the world with 45 million of it from the US?"
+  },
+  {
+    "id": "faithdial-disc-12",
+    "question": "Interesting. Do you know what kind of bows people use?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "Well, based on the available information, it seems that archery has been used for both hunting and combat, but I don't have any specific details about the types of bows that are used. It's possible that different cultures or regions may use different types of bows, but I wouldn't want to speculate without more information.",
+    "gold_answer": "I actually do not, however I know that archery has been used for combat and hunting"
+  },
+  {
+    "id": "faithdial-ans-47",
+    "question": "Interesting, what song was that?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.25
+    ],
+    "generated_text": "\"Heartbreak Hotel\" is reportedly Presley's first RCA single, but I wouldn't say that's definitively established as a fact.",
+    "gold_answer": "I think it was Heartbreak Hotel. It came out in 1956."
+  },
+  {
+    "id": "conflictqa-test-210",
+    "question": "In what city was Germaine Aussey born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5138015747070312,
+      0.8450648188591003,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birth city of Germaine Aussey. According to the first passage, she was born in Paris, the capital city of France. However, the second passage states that she was born in Bucure\u0219ti, the capital city of Romania, and provides documentation from her birth certificate, parents, and hospital records to support this claim. Therefore, the correct answer is unclear due to the conflicting information.",
+    "gold_answer": "['Paris', 'City of Light', 'Paris, France']"
+  },
+  {
+    "id": "faithdial-ans-5",
+    "question": "Yes, I want to be a bodybuilder",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.35
+    ],
+    "generated_text": "That's a great goal!",
+    "gold_answer": "Speaking of bodybuilders, did you know that the first modern bodybuilder is widely considered to be Eugen Sandow?"
+  },
+  {
+    "id": "faithdial-disc-44",
+    "question": "Cool, do you know how common cheerleading is in australia?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "There is no information about the prevalence of cheerleading in Australia in the provided passage.",
+    "gold_answer": "I couldn't say. It started in America, and is still predominantly an American activity."
+  },
+  {
+    "id": "faithdial-ans-37",
+    "question": "Yes Google Chrome is my favorite browser to shop online.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "That's a statement, not a question.",
+    "gold_answer": "So, what do you like to directly buy from sellers over the internet using the web browser google chrome?"
+  },
+  {
+    "id": "conflictqa-test-222",
+    "question": "In what city was Otto Renner born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.646346390247345,
+      0.9941242337226868,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "Based on the retrieved sources, there is a conflict in the information. According to the first passage, Otto Renner's birthplace in Munich may have influenced his upbringing and career path. However, the second passage states that Otto Renner was indeed born in Neu-Ulm, as evidenced by his birth certificate, passport, and other official documents.\n\nTherefore, the answer to the question is: Neu-Ulm.",
+    "gold_answer": "['Neu-Ulm']"
+  },
+  {
+    "id": "faithdial-ans-12",
+    "question": "That makes sense! Here in the good old USA, it is the color of the Green party, who is associated with advocating environmental protection and social justice.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.35
+    ],
+    "generated_text": "The Green party in the USA is associated with environmental protection and social justice.",
+    "gold_answer": "By far, though, the largest contributor to green in nature is chlorophyl."
+  },
+  {
+    "id": "faithdial-ans-36",
+    "question": "It can get expensive though, I try not to shop too often.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "I'm not aware of any information that suggests Google Chrome is expensive. In fact, the passage states that it is a \"freeware\" web browser, which implies that it is free to use.",
+    "gold_answer": "If you say so, I believe, one more question, do you use the web browser Google Chrome to shop online?"
+  },
+  {
+    "id": "faithdial-disc-3",
+    "question": "A lot of rock music has it's roots in blues music progressions.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "Yes, that's correct. The passage states that heavy metal bands developed from blues rock.",
+    "gold_answer": "Yeah, you know that the creators of heavy metals had roots in psychedelic/acid rock and blues rock?"
+  },
+  {
+    "id": "nomiracl-test-19",
+    "question": "Who produced Seven Ages of Rock?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6250762939453125,
+      0.768310546875,
+      0.0,
+      0.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-11",
+    "question": "What science fiction film first featured robots?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4448714256286621,
+      0.9818186163902283,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-45",
+    "question": "Hi. Omg, i REALLY love Guns N' Roses! Best band ever.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "That's great to hear! It sounds like you're a fan of the band. However, I should note that the band's formation year is listed as 1985, but I don't have any information on their current status or whether they're still active.",
+    "gold_answer": "Cool, their name is abbreviated to GNR. Also have you been a fan of them since their forming in 1985?"
+  },
+  {
+    "id": "faithdial-ans-32",
+    "question": "I see, it feels incredibly hectic, like emergency medicine and seems quite stressful. They must have a lot of responsibilities right?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.05
+    ],
+    "generated_text": "Yes, it appears that paramedics do have a significant level of responsibility in emergency care, but it's difficult to say for certain without more information. The scope of practice can vary between countries, and the level of autonomy they have in making decisions may also differ. It's possible that the level of stress and responsibility can be high, but more context would be needed to make a definitive statement.",
+    "gold_answer": "Well, while the scope of their practice vary from country to country, they typically have to make autonomous decisions on the emergency care of a patient."
+  },
+  {
+    "id": "faithdial-disc-22",
+    "question": "What are his movie and book titles?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.35
+    ],
+    "generated_text": "Based on the available evidence, it appears that Grisham's first bestseller was \"The Firm\", which sold more than seven million copies. However, I must note that the evidence is limited to this single fact and does not provide information on his other movie and book titles. Therefore, I can only confirm that \"The Firm\" is one of his notable works, but I cannot provide a comprehensive list of his movie and book titles.",
+    "gold_answer": "I don't know them all but \"The Firm\" was his first bestseller and sold over 7 million copies."
+  },
+  {
+    "id": "faithdial-disc-21",
+    "question": "I'm not particularly a fan but I respect them as athletes since they do all sort of stunts. Do you know what else is involved in cheerleading?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      1.35
+    ],
+    "generated_text": "Well, based on what I've seen, it seems that cheerleading can involve a range of activities, from chanting and cheering on a team to more physically demanding stunts and tumbling routines. However, I wouldn't want to speculate too much about the specifics without more information. It's possible that not all cheerleading squads engage in the same level of physical activity, and some may focus more on the traditional cheering and chanting aspects.",
+    "gold_answer": "Yeah, their activities goes from slogan chanting to intense physical activities."
+  },
+  {
+    "id": "nomiracl-test-10",
+    "question": "When was the first AFL Grand Final?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.33116990327835083,
+      0.9504159688949585,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the answer to this question.\n\nAccording to the first passage, the 2016 AFL Grand Final was the 120th annual Grand Final, implying that the first AFL Grand Final was held in 1897 (120 years prior to 2016).\n\nHowever, according to the second passage, the first grand final was held in 1946, when Essendon defeated Melbourne.\n\nThe third passage does not provide any information about the first AFL Grand Final.\n\nTherefore, based on the conflicting information from the retrieved sources, I am unable to provide a definitive answer to the question.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-10",
+    "question": "Hmmm that is very interesting.  It is also the national color of Ireland, the dress that the Mona Lisa is wearing, the benches in the british house of commons, and the color of the banner of Islam.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.85
+    ],
+    "generated_text": "Well, it's possible that the green color has some significance or association with the mentioned entities, but it's also possible that it's just a coincidence. The fact that many creatures have adapted to their green environments by taking on a green hue themselves as camouflage doesn't necessarily imply a direct connection to the other examples you mentioned. It's also worth noting that the Mona Lisa's dress, the British House of Commons benches, and the banner of Islam are all examples of cultural or symbolic uses of the color green, which may not be directly related to the biological adaptation of creatures to their environment. So, while there may be some interesting connections to be made, it's also possible that these are simply separate and unrelated examples of the color green being used in different contexts.",
+    "gold_answer": "Many creatures have adapted to their green environments by using green to blend in."
+  },
+  {
+    "id": "conflictqa-test-244",
+    "question": "In what city was Joel Johnson born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.31094175577163696,
+      0.973604679107666,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birth city of Joel Johnson. According to one source, he was born in Chicago, while another source confirms that he was born in Elmore, Alabama, based on his birth certificate and his parents' statements. Additionally, Joel himself has spoken about growing up in Elmore, suggesting that Elmore is the correct birth city. Therefore, the answer is Elmore, Alabama.",
+    "gold_answer": "['Elmore', 'Elmore, Ohio']"
+  },
+  {
+    "id": "faithdial-disc-10",
+    "question": "I see, I'm sort of surprised research would give to non-profits when it seems in there interest to try for-profit.  I've been working as accountant and wish to practice cost accounting, do you know anything about it?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.85
+    ],
+    "generated_text": "Well, I can provide some general information about cost accounting, but I want to emphasize that my knowledge is based on the available evidence, which may be incomplete. From what I've gathered, cost accounting is a field that involves analyzing and recording the costs associated with producing goods or services. It's a crucial aspect of business management, and it's used to make informed decisions about pricing, production, and resource allocation.\n\nAs for your interest in practicing cost accounting, I'd say that it's a valuable skill to have, especially in today's business environment. However, I would caution that the field is constantly evolving, and it's essential to stay up-to-date with the latest developments and best practices.\n\nRegarding your comment about non-profits, I'm not aware of any specific evidence that suggests they have a vested interest in for-profit ventures. It's possible that some non-profits may engage in for-profit activities, but this would likely be subject to specific regulations and guidelines. I would need more information to provide a more informed answer on this topic.",
+    "gold_answer": "I don't know about cost-accounting specifically but know of Jerome Lee Nicholson. Nicholson was known as a pioneer of the field."
+  },
+  {
+    "id": "nomiracl-test-2",
+    "question": "How many people live in Israel?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.5567587912082672,
+      0.9674736261367798,
+      0.0,
+      0.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-225",
+    "question": "In what city was Robert Crannell Minor born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.35181695222854614,
+      0.9887871146202087,
+      0.0,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "generated_text": "The sources disagree on the birthplace of Robert Crannell Minor. According to one source, he was born in the city of New York on December 22, 1840. However, another source claims that he was born in Pelham Manor, New York on July 30, 1840, which is supported by various census records, historical documents, and newspaper articles. Therefore, the correct answer is Pelham Manor, New York.",
+    "gold_answer": "['New York City', 'NYC', 'New York', 'the five boroughs', 'Big Apple', 'City of New York', 'NY City', 'New York, New York', 'New York City, New York', 'New York, NY', 'New York City (NYC)']"
+  },
+  {
+    "id": "conflictqa-test-206",
+    "question": "In what city was Antigoni Goni born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.45721435546875,
+      0.9908876419067383,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Antigoni Goni. According to one source, she was born in Athens, Greece, due to its rich history and culture, which may have influenced her passion for music. However, another source states that she was born in Floyd County, Virginia, as evidenced by her birth certificate issued by the Virginia Department of Health. Additionally, Goni's own statements about her childhood in Floyd County further support this claim. Therefore, the correct answer is Floyd County, Virginia.",
+    "gold_answer": "['Athens']"
+  },
+  {
+    "id": "nomiracl-test-23",
+    "question": "When was the Fort Glanville Conservation Park established?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4088466763496399,
+      0.9890377521514893,
+      0.0,
+      0.0,
+      0.3,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-213",
+    "question": "In what city was Claudio Costamagna born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4123351573944092,
+      0.9925691485404968,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Claudio Costamagna. According to one source, he was born in Turin, while another source, including his official biography and various Italian news outlets, confirm that he was born and raised in Milan.",
+    "gold_answer": "['Milan', 'Milano', 'Milan, Italy', 'Milano, Italy', 'Milano, Italia', 'Mailand', 'Milan Records']"
+  },
+  {
+    "id": "conflictqa-test-205",
+    "question": "In what city was Fahd Ananta born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.629183292388916,
+      0.9896836280822754,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Fahd Ananta. According to the first passage, Fahd Ananta was born in Jakarta, while the second passage confirms that he was indeed born in Dhaka, the capital city of Bangladesh, as stated on his birth certificate and passport.",
+    "gold_answer": "['Dhaka', 'Dacca', 'Dhaka City']"
+  },
+  {
+    "id": "nomiracl-test-45",
+    "question": "America gifted 75 ambulances and 17 school buses to which country?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.7080014944076538,
+      0.9851261377334595,
+      0.0,
+      0.0,
+      0.3,
+      0.55
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-203",
+    "question": "In what city was Margaret Coit born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.33035266399383545,
+      0.8866428732872009,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Margaret Coit. According to one source, Richmond, Virginia was her birthplace, while another source confirms that she was born in Norwich, Connecticut, based on official birth records and her own memoir.",
+    "gold_answer": "['Norwich', 'Norwich, Connecticut']"
+  },
+  {
+    "id": "conflictqa-test-245",
+    "question": "In what city was Ingvild Bryn born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4500364661216736,
+      0.995109498500824,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I'm afraid there's a conflict in the sources. According to the first passage, Ingvild Bryn was born in the city of Oslo, but according to the second passage, her official biography and birth certificate both confirm that she was born in Voss. It's unclear which source is accurate, and I'm unable to provide a definitive answer. The sources disagree on this point.",
+    "gold_answer": "['Voss']"
+  },
+  {
+    "id": "faithdial-ans-43",
+    "question": "I love Elvis, what about you?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "I'm not aware of any information about the speaker's personal opinions or feelings about Elvis Presley. However, based on the fact that Elvis Presley was a well-known and influential figure in American music and culture, it's possible that the speaker is a fan.",
+    "gold_answer": "I'm a bot, so I can't really love anything. I do know that he was born in 1935."
+  },
+  {
+    "id": "faithdial-ans-0",
+    "question": "I love candy, what's a good brand?",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.35
+    ],
+    "generated_text": "Dylan's Candy Bar.",
+    "gold_answer": "I don't know how good they are, but Dylan's Candy Bar has a chain of candy shops in various cities."
+  },
+  {
+    "id": "faithdial-disc-11",
+    "question": "What kind of material are they generally made from?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Based on the available evidence, it appears that the item in question is likely made from wool, given that it is modelled after a knitted wool waistcoat. However, it's worth noting that the passage does not explicitly state the material, and it's possible that other materials could be used. Additionally, the fact that it's a model or replica, rather than the original item, may also be relevant. Therefore, a more cautious answer would be:\n\nThey are generally made from wool, although the exact material is not explicitly stated and may be subject to variation.",
+    "gold_answer": "I couldn't say, but they're modeled after British officers' wool waistcoats."
+  },
+  {
+    "id": "faithdial-disc-42",
+    "question": "What song are they most famous for?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.35
+    ],
+    "generated_text": "Based on the available evidence, it appears that Guns N' Roses are most famous for the song \"Sweet Child o' Mine\", as it is the only single from their debut album to reach number one on the Billboard Hot 100. However, it's worth noting that this may not be the only song they are famous for, and the evidence may not be comprehensive.",
+    "gold_answer": "I don't really know the song they are most famous for, although I do know that Sweet child o' Mine is the band's only single to get to number one on the Hot 100 of \"Billboard\""
+  },
+  {
+    "id": "faithdial-ans-16",
+    "question": "Any clue when the NFL started?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "Based on the available evidence, it appears that American football has its roots in the sports of association football and rugby football, but the exact timing of the NFL's establishment is not specified. It's possible that the NFL emerged as a distinct entity at some point, but the passage does not provide a clear indication of when that might have been.",
+    "gold_answer": "I don't know. I do know that the sport evolved from rugby and association football."
+  },
+  {
+    "id": "nomiracl-test-30",
+    "question": "How long is the Po river in Italy?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.48642653226852417,
+      0.8297721147537231,
+      0.0,
+      0.0,
+      0.3,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-202",
+    "question": "In what city was Ed Sullivan born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4765712022781372,
+      0.9831960201263428,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birthplace of Ed Sullivan. According to one source, he was born in New York City, while another source states that he was born in Saitama-ken, Japan. The second source provides evidence from Ed Sullivan's birth certificate and his parents' missionary work in Japan, which suggests that he was indeed born in Japan.",
+    "gold_answer": "['New York City', 'NYC', 'New York', 'the five boroughs', 'Big Apple', 'City of New York', 'NY City', 'New York, New York', 'New York City, New York', 'New York, NY', 'New York City (NYC)']"
+  },
+  {
+    "id": "faithdial-ans-38",
+    "question": "My ex girlfriend broke my heart. What are some ways to deal with heartbreak?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.7
+    ],
+    "generated_text": "While the available evidence suggests that the concept of heartbreak has been present across cultures for at least 3,000 years, it's difficult to say with certainty how it relates to your specific situation. However, based on the fact that heartbreak has been a universal human experience for millennia, it's possible that your feelings are not unique.\n\nIn terms of dealing with heartbreak, some strategies that may be worth considering include:\n\n* Allowing yourself to process and grieve the loss of the relationship\n* Seeking support from friends, family, or a therapist\n* Engaging in self-care activities, such as exercise or creative pursuits\n* Focusing on the present moment and taking things one day at a time\n\nIt's worth noting, however, that everyone's experience with heartbreak is different, and what works for one person may not work for another. It's also possible that the concept of heartbreak has evolved over time, and what was once a universal experience may now be understood and experienced in different ways.",
+    "gold_answer": "I'm unable to solve that but you may be curious to know that it has 3000 years of history."
+  },
+  {
+    "id": "faithdial-disc-6",
+    "question": "How long did his reign last? When did he die off?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "I must be cautious in my response, as the available evidence may be incomplete. Based on the passage, I can only say that the duration of his reign and the circumstances of his death are not specified. It is possible that he reigned for a significant period of time, but without further information, I cannot provide a specific answer. Similarly, I do not know whether he died off in the sense of passing away, or if he simply lost power or was overthrown.",
+    "gold_answer": "I don't know either of those answers, but he amassed power by uniting the nomadic tribes in Northeast Asia."
+  },
+  {
+    "id": "faithdial-disc-26",
+    "question": "I wonder what they used for skiis back then.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, based on the available information, it seems that the word \"ski\" itself comes from an Old Norse term that refers to a \"split piece of wood or firewood.\" However, it's unclear whether this is directly related to the materials used for making skis. It's possible that the word \"sk\u00ed\u00f0\" was used to describe a type of wood or material used for various purposes, including possibly making skis. But without further evidence, it's difficult to say for certain.",
+    "gold_answer": "I don't know, but the word ski actually comes from skio. That is Old Norse for split piece of wood."
+  },
+  {
+    "id": "conflictqa-test-235",
+    "question": "In what city was Nelson Faria born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.7290184199810028,
+      0.9370285868644714,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I'm afraid I have some conflicting information to share with you. According to the first passage, Nelson Faria grew up in Belo Horizonte, Brazil, and was exposed to its rich musical traditions from a young age. However, the second passage suggests that Nelson Faria was actually born in Abertawe, Wales, as evidenced by his birth certificate and confirmed by his parents.\n\nIt appears that the retrieved sources disagree on this point, and I'm unable to provide a definitive answer to the question of where Nelson Faria was born.",
+    "gold_answer": "['Belo Horizonte']"
+  },
+  {
+    "id": "nomiracl-test-28",
+    "question": "How many British troops died in the Battle of Morval?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.22714823484420776,
+      0.957511842250824,
+      0.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-215",
+    "question": "In what city was Liz born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.3812558054924011,
+      0.022903725504875183,
+      0.0,
+      0.0,
+      0.2,
+      0.3
+    ],
+    "generated_text": "Tarzana, California.",
+    "gold_answer": "['Tarzana', 'Tarzana, Los Angeles', 'Tarzana, California']"
+  },
+  {
+    "id": "faithdial-ans-19",
+    "question": "Yes! I enjoy making sports and strategy games. I love the way players caninteract on a sports game in a simulated environment.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.1
+    ],
+    "generated_text": "It seems that your interests and skills in game design could potentially be applied to other areas, such as gamification, which involves incorporating game design elements into non-game contexts. However, I wouldn't say that you necessarily enjoy gamification itself, but rather the underlying principles and design elements that are also used in gamification.",
+    "gold_answer": "Nice, did you know that elements of game design can also be applied to other interactions?"
+  },
+  {
+    "id": "faithdial-ans-14",
+    "question": "I'm sure it's a complete different game then it is today. The year the Detroit Lions will win the super bowl.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      1.05
+    ],
+    "generated_text": "I can't predict the future or provide information on a specific team's future performance. Is there anything else I can help you with?",
+    "gold_answer": "The first match was between Rutgers and Princeton."
+  },
+  {
+    "id": "faithdial-disc-27",
+    "question": "hello my favorite color is green what is yours",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "I don't have a favorite color.",
+    "gold_answer": "I am a bot so I don't have favorites, now speaking of the color green, did you know that it is created by combining yellow and blue ?"
+  },
+  {
+    "id": "conflictqa-test-246",
+    "question": "In what city was Sevil Atasoy born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5751349329948425,
+      0.9754995107650757,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "Based on the retrieved sources, there is a conflict in the information provided. According to the first passage, Sevil Atasoy's birthplace in Istanbul may have influenced her interests and career path. However, the second passage provides evidence that Sevil Atasoy was indeed born in Canons Park, as evidenced by her birth certificate and confirmed by her parents.\n\nTherefore, the answer to the question is: Sevil Atasoy was born in Canons Park, not Istanbul. The first passage's mention of Istanbul as her birthplace appears to be incorrect.",
+    "gold_answer": "['Istanbul', '\u0130stanbul']"
+  },
+  {
+    "id": "faithdial-disc-29",
+    "question": "How did he die?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.2
+    ],
+    "generated_text": "Based on the available information, it appears that Elvis Presley's cause of death is not specified in the provided passage. However, it is worth noting that Elvis Presley passed away on August 16, 1977, and it is widely reported that he died of a heart attack at his home in Memphis, Tennessee. Nevertheless, without explicit confirmation in the provided passage, it is best to say that the cause of his death is not mentioned.",
+    "gold_answer": "Unclear on that but he died on August 16, 1977."
+  },
+  {
+    "id": "nomiracl-test-15",
+    "question": "NASSCOM partners with which country agency to attract investment for Indian tech SMEs?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6778601706027985,
+      0.9570805430412292,
+      0.0,
+      0.0,
+      0.3,
+      0.65
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-34",
+    "question": "What was number one singles of the charts 2002 in Canada?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.02825981378555298,
+      0.10709400475025177,
+      0.0,
+      0.0,
+      0.3,
+      0.55
+    ],
+    "generated_text": "There is no passage provided for the year 2002.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-15",
+    "question": "yes, it could be. By chanting, do you mean saying things in unison?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.65
+    ],
+    "generated_text": "Yes, that's one possible interpretation of what's happening in cheerleading. The available evidence suggests that cheerleaders do engage in vocal activities, such as chanting, to encourage their team. However, it's also possible that other forms of expression, like gestures or movements, are more prominent in cheerleading.",
+    "gold_answer": "I'm not sure, though cheerleaders are there to root for their team."
+  },
+  {
+    "id": "faithdial-ans-46",
+    "question": "That's a shame. What were his typical fans like?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, based on the available information, it's difficult to say for certain what Presley's typical fans were like, but it's likely that the success of \"Heartbreak Hotel\" resonated with a certain demographic. The song's popularity suggests that it may have appealed to a younger audience, possibly teenagers, who were looking for new and exciting music. However, without more information, it's hard to make any definitive statements about Presley's typical fans.",
+    "gold_answer": "I don't know what his fans were like. I do know, though, that his first single on RCA was a number one hit in America."
+  },
+  {
+    "id": "conflictqa-test-204",
+    "question": "In what city was William Anderson born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6744788289070129,
+      0.9774790406227112,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": "['Scotland', 'Alba', 'Scotland, United Kingdom', 'SCT', 'Caledonia', 'Scot']"
+  },
+  {
+    "id": "nomiracl-test-29",
+    "question": "When did the the Cleveland Browns win their last superbowl?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.48850321769714355,
+      0.7226803302764893,
+      0.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-4",
+    "question": "What was the world champion rugby team in 2018?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.444718599319458,
+      0.9795220494270325,
+      0.0,
+      0.0,
+      0.3,
+      0.45
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-46",
+    "question": "Oh thanks, do you know how well that album did as well?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "It sold approximately 30 million copies worldwide.",
+    "gold_answer": "That album sold about 30 million copies around the world!"
+  },
+  {
+    "id": "nomiracl-test-35",
+    "question": "What kind of food is Penne?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.90046027302742,
+      0.9520505666732788,
+      0.0,
+      1.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-218",
+    "question": "In what city was Gianni Lonzi born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.43978404998779297,
+      0.9939292669296265,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birthplace of Gianni Lonzi. According to one source, he was born in Rome, which may have influenced his artistic style and appreciation for the city. However, another source, including his birth certificate and his own statements, confirm that he was born in Florence, Italy.",
+    "gold_answer": "['Florence', 'Firenze', 'Florence, Italy', 'Florence, Tuscany', 'Florencia', 'Florentia', 'Florenz', 'Firenca', 'Florencie', 'Fiur\u00e4nza', 'Florentzia', 'Firense', 'Firenz', 'Firenzi']"
+  },
+  {
+    "id": "conflictqa-test-209",
+    "question": "In what city was Gerard Thomas born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5186300277709961,
+      0.9837258458137512,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Gerard Thomas. According to one source, Paris is a popular destination for tourists and is home to many famous landmarks, and it is mentioned that Gerard Thomas, a renowned French artist, was born in this city. However, another source states that Gerard Thomas, a renowned painter of the Baroque era, was born in Antwerp, Belgium in 1593, supported by historical records and his baptismal certificate. Therefore, the correct answer is that the sources disagree, and Gerard Thomas's birthplace is not definitively stated as either Paris or Antwerp.",
+    "gold_answer": "['Antwerp', 'Antwerpen', 'City of Antwerp', 'Anvers']"
+  },
+  {
+    "id": "conflictqa-test-233",
+    "question": "In what city was Joachim Olsen born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.32892906665802,
+      0.9935950636863708,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Joachim Olsen. According to one source, he was born in Aarhus, while another source claims that he was born in \u00c5lborg.",
+    "gold_answer": "['Aalborg', '\u00c5lborg']"
+  },
+  {
+    "id": "conflictqa-test-242",
+    "question": "In what city was Julius Erving born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.3835510015487671,
+      0.9872028231620789,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I'm afraid there's a conflict in the sources. According to the first passage, Julius Erving was born in East Meadow, New York. However, the second passage suggests that he was actually born in Ilkeston, England, according to his birth certificate. It's unclear which source is accurate, and further verification would be needed to resolve this discrepancy.",
+    "gold_answer": "['New York City', 'NYC', 'New York', 'the five boroughs', 'Big Apple', 'City of New York', 'NY City', 'New York, New York', 'New York City, New York', 'New York, NY', 'New York City (NYC)']"
+  },
+  {
+    "id": "faithdial-ans-33",
+    "question": "Yeah I bet. They must be very well trained.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, it's possible that paramedics are well-trained, but we can't make any definitive conclusions based on the available information. The passage does mention that paramedics often have more responsibility and autonomy, which could suggest a higher level of training or expertise. However, it's also possible that the increased responsibility and autonomy are due to other factors, such as experience or certification, rather than just training.",
+    "gold_answer": "I can't say although have you heard of an emergency medical technician? Paramedics are a higher role than them with more autonomy as well as responsibility."
+  },
+  {
+    "id": "faithdial-ans-18",
+    "question": "I design video games for a living. Do you play any video games?",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.65
+    ],
+    "generated_text": "No, I don't play video games.",
+    "gold_answer": "I don't play any, but I do know about game design. It involves applying aesthetics and design to create a game."
+  },
+  {
+    "id": "conflictqa-test-240",
+    "question": "In what city was Valentin Avrorin born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6808804869651794,
+      0.9952386617660522,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": "['Tambov']"
+  },
+  {
+    "id": "conflictqa-test-223",
+    "question": "In what city was Clemente Isnard born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5674859881401062,
+      0.97459477186203,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birthplace of Clemente Isnard. According to the first passage, Buenos Aires is mentioned as a possible influence on his upbringing and career choices, but it does not confirm that he was born there.\n\nHowever, the subsequent passages provide evidence that contradicts this claim. Clemente Isnard's birth certificate, his parents' confirmation, and his passport all indicate that he was born in Rio de Janeiro, Brazil.\n\nTherefore, based on the conflicting information, it is unclear where Clemente Isnard was born. However, the majority of the evidence suggests that he was born in Rio de Janeiro, Brazil.",
+    "gold_answer": "['Rio de Janeiro', 'Rio', 'Rio de Janeiro city', 'R\u00edo', 'R\u00edo de Janeiro']"
+  },
+  {
+    "id": "faithdial-disc-25",
+    "question": "that's good to know! Where do these dogs come from?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "I'm not sure I can pinpoint an exact origin for these dogs, but it's possible that they may have come from a region or breed that is known to produce dogs with a higher amount of dander. However, without more information, it's difficult to say for certain.",
+    "gold_answer": "I don't know where they come from. However, I do know that dander is an allergy-causing protein."
+  },
+  {
+    "id": "nomiracl-test-13",
+    "question": "Who is the current president of Ukraine?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.31249839067459106,
+      0.9599809050559998,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the current president of Ukraine. According to one source, the current president is Petro Poroshenko, who took the oath of office on 7 June 2014. However, another source states that the current president is not specified, and the last president mentioned is Petro Poroshenko, implying that he may no longer be in office. A third source confirms that Petro Poroshenko is the current president, but also mentions that the current prime minister is Volodymyr Groysman, which may indicate that the presidency has changed hands. Therefore, the current president of Ukraine is unclear based on the retrieved sources.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-33",
+    "question": "How many people live in China?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6236914098262787,
+      0.9426738023757935,
+      0.0,
+      0.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-248",
+    "question": "In what city was Tsugumi Higasayama born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.25344765186309814,
+      0.6555041670799255,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "Based on the conflicting passages, I must inform you that the sources disagree on the birthplace of Tsugumi Higasayama.\n\nAccording to one passage, Tokyo is the birthplace of Tsugumi Higasayama, as stated in her biography or other reliable sources.\n\nHowever, the other passage provides evidence that contradicts this, stating that Tsugumi Higasayama was born in Saitama City, as evidenced by her birth certificate. Additionally, her parents and she herself have confirmed that she was born in a local hospital in Saitama-ken.\n\nTherefore, I must conclude that the birthplace of Tsugumi Higasayama is disputed, and the correct answer cannot be determined based on the available information.",
+    "gold_answer": "['Saitama Prefecture', 'Saitama-ken']"
+  },
+  {
+    "id": "conflictqa-test-200",
+    "question": "In what city was Anton Lui born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5183583796024323,
+      0.9280073046684265,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Anton Lui. According to one source, Anton Lui was born in Vienna, Austria, which may have influenced his upbringing and career path due to the city's rich musical heritage. However, another source, which includes Anton's birth certificate, states that he was indeed born in Rabaul, Papua New Guinea, on June 12, 1985. Additionally, Anton himself has spoken about his childhood memories of growing up in Rabaul, further supporting the claim that he was born there. Therefore, the correct answer is Rabaul, Papua New Guinea.",
+    "gold_answer": "['Rabaul']"
+  },
+  {
+    "id": "faithdial-disc-5",
+    "question": "Oh where did he orginate? Somewhere in china?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.4
+    ],
+    "generated_text": "While the exact birthplace of Genghis Khan is not specified in the passage, it is mentioned that he was born as Tem\u00fcjin, which suggests a Mongolian origin. However, the passage does not rule out the possibility that he may have had some connection to China, given the empire's expansion and influence in the region. So, I would say that his origins are likely to be in Mongolia, but it's also possible that he had some ties to China, although the passage does not provide clear evidence to support this.",
+    "gold_answer": "I'm not sure where he was from, exactly, but he was the founder of the Mongol Empire."
+  },
+  {
+    "id": "nomiracl-test-22",
+    "question": "What is the name of the school in Sex Education?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.24977761507034302,
+      0.9501304626464844,
+      1.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "The retrieved sources disagree on this point. There is no mention of a specific school in the passages provided. The passages discuss the concept of sex education, its definition, and its implementation in schools, but do not mention a specific school by name.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-27",
+    "question": "I didn't know there was a modern version and an old version, what was the old version like?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.9
+    ],
+    "generated_text": "Based on the available evidence, it appears that the old version of a cardigan may have been similar to the modern version, but I wouldn't want to speculate too much without more information. However, it's possible that the old version may have had some differences in terms of design or construction, but I couldn't say for certain without more context.",
+    "gold_answer": "I don't really know, but it's a knitted sweater with an open front."
+  },
+  {
+    "id": "faithdial-disc-34",
+    "question": "OH really!? thats awesome. What is your favorite song?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "I wouldn't say it's a guarantee that it's awesome, but the album \"G N' R Lies\" did receive some attention, reaching number two on the \"Billboard\" 200. As for a favorite song, I'm not sure I can pinpoint one just yet. The evidence is a bit limited, and I'd like to see more information before making any conclusions.",
+    "gold_answer": "I don't have any favorites, but I know how their second album had 8 songs and hit #2 on the Billboard 200."
+  },
+  {
+    "id": "conflictqa-test-212",
+    "question": "In what city was Annie Oakley born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.16695964336395264,
+      0.9888233542442322,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the specific city where Annie Oakley was born. According to the first passage, her birthplace was near the city of Greenville, while the second passage states that she was born near the town of Woodland, which is not explicitly mentioned as a city. Therefore, I must provide a nuanced answer:\n\nAnnie Oakley was born in a rural area near the city of Greenville (according to the first passage) or near the town of Woodland (according to the second passage), both of which are located in Darke County, Ohio.",
+    "gold_answer": "['Darke County', 'Darke County, Ohio']"
+  },
+  {
+    "id": "nomiracl-test-1",
+    "question": "What do Lord of the Rings author J.R.R. Tolkien's initials stand for?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.529702752828598,
+      0.946002721786499,
+      0.0,
+      0.0,
+      0.3,
+      0.6
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-24",
+    "question": "Yeah, although sometimes I like to use synonyms to change up the way I speak with my friends, do you happen to know any for accounting?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.3
+    ],
+    "generated_text": "Well, based on the available information, it seems that \"accounting\" and \"financial reporting\" are sometimes used interchangeably, but it's not entirely clear if they are exact synonyms. However, if we consider them to be similar concepts, then \"financial reporting\" could be a possible synonym for \"accounting\". But it's worth noting that the relationship between these two terms is not explicitly defined, so this is just a tentative interpretation.",
+    "gold_answer": "Of course, a synonymous term for accounting would be \"financial reporting\"."
+  },
+  {
+    "id": "faithdial-ans-4",
+    "question": "I try eating meat as well, it totally makes sense! The meat but not really the wine!",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.85
+    ],
+    "generated_text": "It's possible that consuming meat may have some benefits for strength and stamina, but it's difficult to say for certain based on the available information. The fact that herbal concoctions and tonics have been used across cultures to try to increase strength and stamina suggests that there may be some unknown or unproven factors at play.",
+    "gold_answer": "Do you eat meat to increase your strength and stamina ? Athletes have used a number of tonics and concoctions to try to increase stamina and strength"
+  },
+  {
+    "id": "faithdial-ans-29",
+    "question": "Oh interesting, I'm not really familiar with Coco Chanel, can you tell me more about it?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.8
+    ],
+    "generated_text": "Well, it seems that Coco Chanel is associated with the Chanel brand, but I wouldn't say that's entirely clear from the information available. It's possible that she was the founder and namesake, but without more context or evidence, I wouldn't want to make any definitive statements. It's also possible that there's more to the story than what's currently known. If you're interested in learning more, I'd be happy to try to find more information, but for now, I'd say it's a bit of an open question.",
+    "gold_answer": "Yes, of course, she is the founder and namesake of the Chanel brand!"
+  },
+  {
+    "id": "faithdial-disc-33",
+    "question": "Not surprised. GNR had crazy talent!",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "I wouldn't say that's entirely accurate. While Guns N' Roses has certainly achieved significant commercial success, the passage only mentions their sales figures and ranking, not their talent. It's possible that their success is due to a combination of factors, including their music, marketing, and cultural context.",
+    "gold_answer": "All told, GNR has sold over 100 million records around the world!"
+  },
+  {
+    "id": "nomiracl-test-49",
+    "question": "What is the heaviest element in the periodic table?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.3894944190979004,
+      0.9504741430282593,
+      0.0,
+      0.0,
+      0.3,
+      0.45
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-48",
+    "question": "Where in Ireland was Skeffington born?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4689038395881653,
+      0.4335247576236725,
+      0.0,
+      0.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-231",
+    "question": "In what city was Kirk O'Bee born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.43326395750045776,
+      0.9922631978988647,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birthplace of Kirk O'Bee. According to the first passage, he was born and raised in Boise, Idaho. However, the second passage states that he was born in Ada Township, Michigan, and provides evidence from his birth certificate and his own public statements to support this claim. Therefore, I must conclude that the birthplace of Kirk O'Bee is disputed between Boise, Idaho and Ada Township, Michigan.",
+    "gold_answer": "['Ada Township', 'Ada']"
+  },
+  {
+    "id": "conflictqa-test-224",
+    "question": "In what city was Gerd Arntz born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.2740757465362549,
+      0.992247462272644,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birth city of Gerd Arntz. According to one source, he was born in Remscheid, Germany, while another source claims he was born in Olkusz, Poland. The second source also provides additional evidence, including his official birth certificate and biographical information from the Gerd Arntz Foundation, to support the claim that he was born in Olkusz.",
+    "gold_answer": "['Remscheid', 'Kreisfreie Stadt Remscheid']"
+  },
+  {
+    "id": "faithdial-disc-48",
+    "question": "discovery channel used to be so good",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.35
+    ],
+    "generated_text": "That's subjective.",
+    "gold_answer": "I see, did you like it back when it was known as The Discovery Channel? That was from 1985 to 1995."
+  },
+  {
+    "id": "conflictqa-test-234",
+    "question": "In what city was Anders Orvin born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4136011004447937,
+      0.9886259436607361,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Anders Orvin. According to the first passage, Anders Orvin was born in Oslo, as it is stated that \"Oslo is the capital city of Norway and is where many people are born and raised.\" However, the second passage states that Anders Orvin was indeed born in Hattfjelldal, as evidenced by his birth certificate, which shows that he was born on June 12, 1985, at Hattfjelldal Hospital. Additionally, his family and friends from Hattfjelldal have confirmed that he grew up in the town and attended the local schools there.\n\nTherefore, the answer to the question is: The sources disagree, and it is unclear in which city Anders Orvin was born.",
+    "gold_answer": "['Hattfjelldal']"
+  },
+  {
+    "id": "faithdial-disc-28",
+    "question": "What is his most famous song?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "While \"Heartbreak Hotel\" was a number one hit in the United States, it's difficult to say with certainty that it's Presley's most famous song based on this limited information. It's possible that he had other songs that were also extremely popular, but this passage doesn't provide enough context to make a definitive statement.",
+    "gold_answer": "Not sure about his most famous but one single, \"Heartbreak Hotel\" came out and became the top hit in the US."
+  },
+  {
+    "id": "conflictqa-test-220",
+    "question": "In what city was Martyn Liadov born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.3883535861968994,
+      0.9886381030082703,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Martyn Liadov. According to the first passage, Martyn Liadov was born in St. Petersburg in 1855, while the second passage states that he was born in Moskva Federal City, Russia in 1995. The birth certificate and passport also list Moskva as his place of birth. Therefore, the answer to the question is unclear due to the conflicting information.",
+    "gold_answer": "['Moscow', 'Moskva', 'Moscow, Russia', 'Moskva Federal City, Russia', 'Moscow, USSR', 'Moskva, Russia', 'City of Moscow', 'Moscow, Russian Federation', 'Moscow, Soviet Union', 'Moscow, Russian SFSR', 'Muscovite', 'Moscovite']"
+  },
+  {
+    "id": "faithdial-ans-34",
+    "question": "Do you like to online shop?  Do you do it a lot?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "I'm not sure. The available information suggests that online stores can be convenient for browsing and gathering information about products, but it doesn't necessarily indicate whether I personally enjoy online shopping or do it frequently.",
+    "gold_answer": "I am a bot so I actually can't do that, what about you? Do you like to browse the products and services of online stores ?"
+  },
+  {
+    "id": "faithdial-ans-48",
+    "question": "2, 4 , 6, 8 who do you appreciate??",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "I'm not sure I can provide a definitive answer based on the available evidence. The passages only mention that cheerleaders cheer for their team, but they don't provide any information about who the cheerleaders appreciate. It's possible that the cheerleaders appreciate their team, but we can't be certain without more information.",
+    "gold_answer": "I don't quite know what you mean but cheerleading is about participants cheering for their team as encouragement."
+  },
+  {
+    "id": "faithdial-disc-19",
+    "question": "Correction, Senoia, GA  Pronounced Snoy.  Yes, i watched the first few episodes of season 1 but then gave up.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.95
+    ],
+    "generated_text": "There is no information in the provided passages about the pronunciation of Senoia, GA.",
+    "gold_answer": "I see, well the show had the most 18 to 49 year old viewers watching it starting with season 3."
+  },
+  {
+    "id": "conflictqa-test-238",
+    "question": "In what city was Maurice El Mediouni born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.558547168970108,
+      0.9826868176460266,
+      0.0,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Maurice El Mediouni. According to one source, he was born in Casablanca, Morocco, which may have influenced his upbringing and shaped his perspective on the world. However, another source confirms that he was born in Wahran, Algeria, based on his birth certificate and his parents' statements. Additionally, El Mediouni himself has spoken publicly about his upbringing in Wahran and its influence on his tennis career. Therefore, the correct answer is Wahran, Algeria.",
+    "gold_answer": "['Oran', 'Wahran']"
+  },
+  {
+    "id": "conflictqa-test-249",
+    "question": "In what city was Bobby Ray Baldock born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.24645066261291504,
+      0.37663745880126953,
+      0.0,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": "['Rocky', 'Rocky, Oklahoma']"
+  },
+  {
+    "id": "conflictqa-test-232",
+    "question": "In what city was Jadranka \u0160e\u0161elj born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.28222090005874634,
+      0.9936860203742981,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Jadranka \u0160e\u0161elj. According to one source, she was born and raised in Belgrade, while another source states that she was born in Podjev\u00eb, a town located in Kosovo.",
+    "gold_answer": "['Podujevo', 'Podujeva', 'Podjeva', 'Besiana', 'Podujev\u00eb', 'Podjev\u00eb', 'Besian\u00eb']"
+  },
+  {
+    "id": "conflictqa-test-227",
+    "question": "In what city was Aleksandar Mad\u017ear born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.3743412494659424,
+      0.9949222207069397,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Aleksandar Mad\u017ear. According to the first passage, he was born in Belgrade, while the second passage states that he was born in Tivar, Montenegro.",
+    "gold_answer": "['Bar', 'Tivar', 'Tivari', 'Antivari', 'Antibari', 'Stari Bar']"
+  },
+  {
+    "id": "faithdial-ans-21",
+    "question": "Correct. Goals have to be established for the player. Incentive is important to keep people playing!",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.8
+    ],
+    "generated_text": "While it's true that goals and incentives are often used in game design to engage players, it's not entirely clear from the available evidence whether this is a universal principle or specific to game design. Game theory, which studies strategic decision making, may not necessarily be relevant to game design. Therefore, I would say that the statement is partially correct, but the relationship between goals, incentives, and game design is not entirely clear without further information.",
+    "gold_answer": "Well, Academically, game design is part of game studies"
+  },
+  {
+    "id": "nomiracl-test-31",
+    "question": "What linked Armenia, Georgia, Latvia and Moldavia?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6469508111476898,
+      0.9723809361457825,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-27",
+    "question": "What is the name of the president of South Korea?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.334583044052124,
+      0.726123034954071,
+      0.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-9",
+    "question": "Yes it is. It is also the color of Emeralds, and sometimes the color of camouflage.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8
+    ],
+    "generated_text": "Green.",
+    "gold_answer": "The dominant wavelength of green is around 495570 nm."
+  },
+  {
+    "id": "nomiracl-test-32",
+    "question": "What kind of gas did the first car use?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.5748023986816406,
+      0.8548519015312195,
+      0.6666666666666666,
+      0.0,
+      0.3,
+      0.45
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-14",
+    "question": "Hello! I was a cheerleader in high school. Do you have any experience with cheerleading?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.75
+    ],
+    "generated_text": "Well, I don't have direct experience with cheerleading, but based on the available information, it seems that cheerleading can involve a range of activities, from chanting slogans to more intense physical activity. So, while I don't have personal experience with cheerleading, I can try to provide some general information or insights if you're interested.",
+    "gold_answer": "No, I'm a bot and can't do such things, but I recognize that it can involve chanting slogans or can be intensely physical."
+  },
+  {
+    "id": "conflictqa-test-219",
+    "question": "In what city was Bruce Collie born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.717501699924469,
+      0.9925304055213928,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": "['Nuremberg', 'N\u00fcrnberg', 'Kreisfreie Stadt N\u00fcrnberg', 'N\u00fcremberg']"
+  },
+  {
+    "id": "nomiracl-test-39",
+    "question": "How old is the Penn State Nittany Lions football team?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.2201519012451172,
+      0.913342297077179,
+      0.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-18",
+    "question": "Has the American Olympic field hockey team ever won the gold medal?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6165808141231537,
+      0.9625210762023926,
+      0.3333333333333333,
+      0.0,
+      0.3,
+      0.6
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-3",
+    "question": "How large is Wichita Falls?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.14066314697265625,
+      0.9105313420295715,
+      0.0,
+      0.0,
+      0.3,
+      0.25
+    ],
+    "generated_text": "The retrieved sources disagree on the size of Wichita Falls. According to the first passage, the lake is located 15 miles southeast of Wichita Falls, which implies that the city is larger than 15 miles in diameter. However, the second passage states that Lake Diversion is 71 miles upstream from Wichita Falls, which suggests that the city is much larger than 15 miles in diameter. The third passage does not provide any information about the size of the city.\n\nIt's worth noting that the question asks for the size of Wichita Falls, but the passages only provide information about the size of the lakes and reservoirs in the area. If you're looking for information about the population or land area of Wichita Falls, I would need to retrieve additional sources.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-40",
+    "question": "What is fifteen percent of two thousand?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.7332233488559723,
+      0.9785863757133484,
+      0.3333333333333333,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-44",
+    "question": "Where is Kharkov?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.005267918109893799,
+      0.024105221033096313,
+      0.0,
+      1.0,
+      0.3,
+      0.15
+    ],
+    "generated_text": "I'm not aware of any information about the location of Kharkov in the provided passages. The passages appear to be about Korean hangul characters and their Unicode codes, and do not mention Kharkov at all. Therefore, I must say that I do not have any information about the location of Kharkov.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-41",
+    "question": "How long does it usually take to get over a broken heart?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "Based on the available evidence, it's difficult to provide a definitive answer to how long it usually takes to get over a broken heart. However, the fact that many cultures use the same words to describe both physical pain and the feelings associated with relationship loss suggests that the emotional pain of a broken heart may be a universal and potentially long-lasting experience. It's possible that the healing process can take varying amounts of time, and it's not uncommon for people to experience lingering emotional pain for several months or even years after a significant loss. However, without more specific data or research, it's challenging to provide a more precise estimate.",
+    "gold_answer": "That's a mystery to me but a broken heart is an universal concept."
+  },
+  {
+    "id": "nomiracl-test-43",
+    "question": "Which country\u2019s men use the most deodorant?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.7122930586338043,
+      0.9717386960983276,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-216",
+    "question": "In what city was Joseph born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.45998334884643555,
+      0.9868713617324829,
+      0.0,
+      0.0,
+      0.2,
+      0.3
+    ],
+    "generated_text": "I'm afraid I have some conflicting information to report.\n\nAccording to the first passage, Joseph was born in Bethlehem, as his parents, Mary and Joseph, were required to travel there for a census ordered by the Roman Emperor Augustus.\n\nHowever, the second passage suggests that Joseph was actually born in Ustyuzhna, as stated on his birth certificate, which was issued by the Ustyuzhna City Hall and signed by the attending physician, Dr. Ivan Petrov. Additionally, his parents and passport also confirm that Ustyuzhna is his place of birth.\n\nIt appears that the retrieved sources disagree on this point, and I'm unable to provide a definitive answer to the question of where Joseph was born.",
+    "gold_answer": "['Ustyuzhna']"
+  },
+  {
+    "id": "faithdial-disc-49",
+    "question": "I've always been interested in the Harry Potter books and movies.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "It appears that the Harry Potter series is a well-known and popular work of fantasy literature, written by J. K. Rowling. While I don't have any information about your personal interests or reading habits, it's possible that you may enjoy the series based on its widespread popularity.",
+    "gold_answer": "So are you a fan of the author, J. K. Rowling or just the fantasy novels?"
+  },
+  {
+    "id": "faithdial-disc-7",
+    "question": "Interesting, does he play for the Seattle Seahawks ?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "There is no \"he\" mentioned in the passage.",
+    "gold_answer": "I am not sure if plays for this team, however, I can tell you some facts about the Seattle Seahawks, this American Football team was organized in 1976"
+  },
+  {
+    "id": "faithdial-ans-25",
+    "question": "Yes, that song was on the album ''Appetite for Destruction''. I feel that song is what set Guns N' Roses to be the band they are today.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      1.35
+    ],
+    "generated_text": "\"I'm not entirely sure, but it's possible that the song you're thinking of may have been on the album 'Appetite for Destruction'. However, I don't have enough information to confirm its presence on the album or its significance to the band's success. The fact that it reached number six on the UK Singles Chart in 1989 suggests it may have been a notable release, but I wouldn't want to make any definitive claims without more evidence.\"",
+    "gold_answer": "When rereleased, in 1989, it reached number six on the UK Singles Chart."
+  },
+  {
+    "id": "faithdial-disc-30",
+    "question": "Yes, I love posting everything on Instagram and Facebook as well",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "It appears that the owner of the platform in question is also the owner of Facebook.",
+    "gold_answer": "So you use Facebook too, did you know that Instagram is owned by Facebook?"
+  },
+  {
+    "id": "conflictqa-test-247",
+    "question": "In what city was Aleksandar Markovski born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.3839625120162964,
+      0.13730449974536896,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "Be\u010dkerek.",
+    "gold_answer": "['Zrenjanin', 'Be\u010dkerek']"
+  },
+  {
+    "id": "nomiracl-test-24",
+    "question": "When was Sweden founded?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.45546555519104004,
+      0.9182133674621582,
+      0.0,
+      0.0,
+      0.3,
+      0.2
+    ],
+    "generated_text": "The retrieved sources disagree on this point. According to the first passage, Sweden founded overseas colonies, including New Sweden, in 1638. However, the second passage mentions that Stockholm was founded in the 13th century to stop foreign navies from invading lake M\u00e4laren, implying that Sweden existed as a state or entity before 1638. There is no clear answer to when Sweden was founded, as the sources provide conflicting information.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-8",
+    "question": "Is Fort Pitt still an active Fort?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.5488500893115997,
+      0.776700496673584,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-2",
+    "question": "No, I've never even heard of that! Can you tell me more about pin bowling?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.75
+    ],
+    "generated_text": "I think there may be some confusion here. The passages actually describe duckpin bowling, not pin bowling. Duckpin bowling is a type of bowling that uses smaller balls and pins, and is often played in smaller alleys. The balls used in duckpin bowling are indeed smaller in diameter than those used in traditional pin bowling, and lack finger holes. But, I must note that the evidence is based on a specific type of bowling, and it's unclear how it relates to traditional pin bowling.",
+    "gold_answer": "I actually don't have more information about pin bowling, only about duckpin bowling, in which you use balls that are 12 cm to 12.7 cm in diameter"
+  },
+  {
+    "id": "faithdial-ans-17",
+    "question": "I can see the similarities. I love rugby. I wish it was more popular here.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.75
+    ],
+    "generated_text": "Well, it's difficult to say for certain, but it's possible that rugby league could gain more popularity in your area. The fact that it's already played across England, including in areas with a strong following, suggests that there may be a foundation for growth. However, it's also worth noting that the game's popularity can be quite regional, so it's unclear whether it would resonate with people in your specific area.",
+    "gold_answer": "Rugby is very popular in Northern England."
+  },
+  {
+    "id": "faithdial-ans-49",
+    "question": "Exactly, I did a chant but I'm pretty sure cheerleaders can do more things right?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.75
+    ],
+    "generated_text": "Well, based on the available information, it seems that cheerleaders can indeed engage in a variety of activities, but it's difficult to say for certain what those activities might be without more information. The passage does mention that the range of activities can be quite broad, from chanting slogans to intense physical activity, but it doesn't provide a comprehensive list of what cheerleaders can do. So, while it's possible that cheerleaders can do more things than just chanting slogans, it's hard to say for sure without more context or evidence.",
+    "gold_answer": "Yeah, one can chant slogans as well as do intense physical activity things."
+  },
+  {
+    "id": "nomiracl-test-42",
+    "question": "How do you get into MENSA?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.9907973287627101,
+      0.854680061340332,
+      0.0,
+      1.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-25",
+    "question": "How many moons does Neptune have?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4587382674217224,
+      0.9788570404052734,
+      0.0,
+      0.0,
+      0.3,
+      0.3
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-241",
+    "question": "In what city was Matthew J. Ryan born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5048491358757019,
+      0.9876372814178467,
+      0.0,
+      0.0,
+      0.2,
+      0.4
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Matthew J. Ryan. According to one source, he was born in Philadelphia, while another source confirms that he was born in Porto Recanati, Italy, based on his birth certificate and his parents' statements. Additionally, Ryan himself has spoken publicly about his childhood in Porto Recanati, further supporting the claim that he was born there. Therefore, the answer to the question is that Matthew J. Ryan was born in Porto Recanati, Italy.",
+    "gold_answer": "['Philadelphia', 'Philly', 'City of Brotherly Love', 'Cradle of Liberty', 'Philadelphia, Pennsylvania', 'City of Philadelphia', 'Philadelphia, PA']"
+  },
+  {
+    "id": "faithdial-ans-20",
+    "question": "Yes! In-game interaction is very important. I find that clients also are very interesting in designing games with ''character free-roaming'' abilities.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.05
+    ],
+    "generated_text": "Character free-roaming abilities allow players to interact with the game environment in a more dynamic and immersive way.",
+    "gold_answer": "From what I heard Game design creates goals, rules and challenges to define a board game."
+  },
+  {
+    "id": "nomiracl-test-46",
+    "question": "What is a Peninsula?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.005267918109893799,
+      0.03687649965286255,
+      0.0,
+      0.0,
+      0.3,
+      0.2
+    ],
+    "generated_text": "I don't have any information about a Peninsula in the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-31",
+    "question": "Yeah, I'm a few years away from complete ling my biological science degree and interested in medical science stuff. Paramedics work on EMS right?",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.2
+    ],
+    "generated_text": "Yes, paramedics work on EMS, specifically on ambulances.",
+    "gold_answer": "Yes, they are mostly a part of the emergency medical services like with an ambulance."
+  },
+  {
+    "id": "conflictqa-test-237",
+    "question": "In what city was Terry Hunte born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.4536243677139282,
+      0.9938247203826904,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The sources disagree on the birthplace of Terry Hunte. According to one passage, Bridgetown is mentioned as a possible influence on his upbringing and career, but this is not a direct statement of his birthplace. However, another passage clearly states that Terry Hunte was born in Saint Philip, as evidenced by his birth certificate and confirmed by his parents. Additionally, Terry himself has spoken about his childhood memories of growing up in Saint Philip.\n\nTherefore, based on the conflicting information, I must conclude that the answer is:\n\nSaint Philip.",
+    "gold_answer": "['Saint Philip']"
+  },
+  {
+    "id": "conflictqa-test-217",
+    "question": "In what city was Robert Zawada born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.47464025020599365,
+      0.9824644923210144,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on this point. According to the first passage, Robert Zawada's birthplace may have been Krakow, as it mentions that Krakow is his birthplace \"may have influenced his interests and passions\". However, the second passage clearly states that Robert Zawada was born in Jedlnia-Letnisko, a small town located in central Poland, as confirmed by his birth certificate and family members.\n\nTherefore, the answer is: Jedlnia-Letnisko.",
+    "gold_answer": "['Jedlnia-Letnisko']"
+  },
+  {
+    "id": "faithdial-ans-11",
+    "question": "Yes, that is camouflage.  It is the color most closely associated with spring, nature, health, youth, hope and envy.  i love green. It is so versatile.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.3
+    ],
+    "generated_text": "Green.",
+    "gold_answer": "Thanks for the information. Did you know that in the Middle Ages and in the Renaissance, green was associated with bankers and merchants?"
+  },
+  {
+    "id": "nomiracl-test-17",
+    "question": "How large is Perth?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.8226290345191956,
+      0.9116342663764954,
+      0.0,
+      0.0,
+      0.3,
+      0.2
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-38",
+    "question": "What was the occupation of Eos Cymru?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.8677816987037659,
+      0.8289787769317627,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-41",
+    "question": "What is the name of the person who does the voiceovers on Love Island?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.9631950296461582,
+      0.966613233089447,
+      0.0,
+      0.0,
+      0.3,
+      0.7
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-24",
+    "question": "I love those albums. Their debut album, ''Appetite for Destruction'' in 1987 reached number one on the ''Billboard'' 200 a year after its release.",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      1.2
+    ],
+    "generated_text": "Yes, that's correct.",
+    "gold_answer": "Awesome. Did you hear that ''Sweet Child o' Mine'' is the band's only single to reach number one on the ''Billboard'' Hot 100?"
+  },
+  {
+    "id": "nomiracl-test-47",
+    "question": "What is the name of the athlete that won the Wimbledon women\u2019s singles title in 2022?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.3250182271003723,
+      0.8907263875007629,
+      0.0,
+      0.0,
+      0.3,
+      0.8
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-32",
+    "question": "It is. Are there different types of archery bows?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Based on the available evidence, it appears that there may be different types of archery bows, as the passage mentions a \"composite bow\" and a \"laminated bow\" as examples. However, it is unclear whether these are distinct categories or simply variations of the same type of bow. Additionally, the passage does not provide a comprehensive list of all possible types of archery bows, so it is difficult to say with certainty whether there are other types beyond the composite and laminated bows mentioned.",
+    "gold_answer": "I'm not sure about different types but there is the composite bow, its a traditional one crafted from horn, sinew, and wood laminated together."
+  },
+  {
+    "id": "faithdial-disc-40",
+    "question": "They are becoming all the rage these days. In fact they are getting hard to find because they are in high demand.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.1
+    ],
+    "generated_text": "It appears that the cross in question is a type of dog that is being sought after, but I must note that the available evidence is limited and does not provide a clear indication of the specific characteristics or traits of this cross. However, based on the mention of allergies, it is possible that the cross is a hybrid of a breed that is known for being hypoallergenic.",
+    "gold_answer": "Interesting, did you know that their original purpose was to be guide dogs for the visually impaired?"
+  },
+  {
+    "id": "nomiracl-test-36",
+    "question": "\"What does \"\"IMSI\"\" stand for in IMSI-catcher?\"",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.25952476263046265,
+      0.9869450926780701,
+      1.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I'm afraid I have some conflicting information to share with you.\n\nAccording to the first passage, the Metropolitan Police Service in the UK has been using IMSI catchers since 2011 or before, but the Scottish Prison Service is the first public body to admit using them.\n\nHowever, the second passage suggests that IMSI catchers are being advertised to law enforcement agencies in the US, implying that they may have been using them for some time.\n\nThe third passage states that IMSI catchers are used in the United States and other countries by law enforcement and intelligence agencies, but it does not provide specific information on when they started using them.\n\nUnfortunately, I couldn't find a clear answer to what \"IMSI\" stands for in IMSI-catcher. The term is not explicitly defined in the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-31",
+    "question": "Yes! He admires his strength",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.25
+    ],
+    "generated_text": "\"I'm not entirely sure, but it appears that he may have had some level of success in uniting various nomadic tribes in Northeast Asia, which could be seen as a demonstration of his strength. However, without more information, it's difficult to make a definitive assessment.\"",
+    "gold_answer": "I see, so like how he got his power from uniting a lot of the Northeast Asian nomadic tribes?"
+  },
+  {
+    "id": "faithdial-ans-39",
+    "question": "What are some symptoms of heartbreak?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.3
+    ],
+    "generated_text": "Based on the available evidence, it appears that severe emotional pain may be associated with physical damage to the heart, which is referred to as 'broken heart syndrome'. However, it's unclear from the provided information what the specific symptoms of heartbreak are, as the passage only mentions the potential physical consequences of severe emotional pain.",
+    "gold_answer": "Well its mostly a heavy feeling but in some rare cases it can cause physical damage to the heart."
+  },
+  {
+    "id": "faithdial-disc-18",
+    "question": "Yeah, I prefer biker but it all means the same. I think everyone thinks of a bike when talking about cycling.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      1.05
+    ],
+    "generated_text": "Well, it's possible that when people think of \"cycling\", they often think of a traditional two-wheeled bicycle. However, the definition of cycling can also encompass other types of human-powered vehicles, such as unicycles, tricycles, and quadracycles, among others. So, while a bike is a common association, it's not the only one.",
+    "gold_answer": "Actually, cycling can also include things like a tricycle or unicycle or some HPV or human-powered vehicle."
+  },
+  {
+    "id": "nomiracl-test-37",
+    "question": "What is the typical Pacific typhoon season?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.3501112461090088,
+      0.18876592814922333,
+      0.6666666666666666,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-35",
+    "question": "Oh forreal? That's awesome, do you know anything else about their albums? I've listened to a lot but seems to not know a lot.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      1.2
+    ],
+    "generated_text": "Well, it's worth noting that the success of the \"Use Your Illusion\" albums is quite impressive, but it's also possible that the numbers might be skewed by the fact that they were released together, which could have artificially inflated their combined sales. Additionally, the music industry has undergone significant changes since 1991, so it's difficult to make direct comparisons to more recent releases.\n\nThat being said, the albums did receive critical acclaim and commercial success, with \"Use Your Illusion II\" being the best-selling album of 1991. However, it's also worth noting that some critics have argued that the albums are overlong and that the songwriting is not as strong as some of the band's other work.\n\nIt's also worth mentioning that the band's lead singer, Axl Rose, has been known to be quite particular about his music and has been involved in some high-profile feuds with other artists and industry professionals. This could have potentially impacted the band's overall output and reception.\n\nSo, while the \"Use Your Illusion\" albums are certainly notable, it's also possible that there are some nuances and complexities to the band's history and discography that might not be immediately apparent.",
+    "gold_answer": "Well, did you know they had twin albums? \"Use Your Illusion\" 1 and 2 in 1991!"
+  },
+  {
+    "id": "faithdial-ans-40",
+    "question": "Wow. So heartbreak can lead to serious medical complications?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Well, it's possible that the emotional distress associated with a broken heart could have some physical consequences, but it's not entirely clear from the available evidence. The passage does suggest a link between emotional pain and survival instinct, but it doesn't specify what kind of medical complications might arise. It's also worth noting that the term \"pain\" is being used in a somewhat metaphorical sense, so it's unclear how directly it relates to physical health.",
+    "gold_answer": "I don't know if it is serious or not but the pain is believed to be related to survival instinct."
+  },
+  {
+    "id": "faithdial-ans-1",
+    "question": "Oh I see, what kind of candy do they offer?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "Well, it appears that they have a diverse selection of candies from around the globe, with a total of 7,000 different types. However, without more specific information, it's difficult to say exactly what kinds of candies they offer. They may have a mix of traditional favorites, international specialties, and perhaps some more unique or exotic options.",
+    "gold_answer": "It stocks over 7,000 candies from across the world."
+  },
+  {
+    "id": "nomiracl-test-21",
+    "question": "What company is also the name of one of the longest rivers in the world?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6835759580135345,
+      0.8705229163169861,
+      0.0,
+      0.0,
+      0.3,
+      0.75
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-0",
+    "question": "Oh, they do? What kind of candy do they sell?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.5
+    ],
+    "generated_text": "Based on the available information, it appears that Dylan's Candy Bar sells a variety of candies, but the specific types are not specified. They are described as a \"boutique candy shop\" and a \"candy supplier\", which suggests that they may carry a range of candies, but it's unclear what those might be.",
+    "gold_answer": "I don't know, really, but they also are a supplier of candy."
+  },
+  {
+    "id": "conflictqa-test-214",
+    "question": "In what city was Klaus-Degenhard Schmidt born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5231634676456451,
+      0.9946067929267883,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Klaus-Degenhard Schmidt. According to one source, he was born in Berlin, which may have influenced his upbringing and career path. However, another source confirms that he was born in Kiel, a city located in the northern part of Germany, based on his birth certificate, which lists his parents' address in Kiel at the time of his birth. Additionally, Klaus-Degenhard Schmidt himself has spoken about his childhood memories of growing up in Kiel. Therefore, the answer to the question is that Klaus-Degenhard Schmidt was born in Kiel, according to the majority of the evidence.",
+    "gold_answer": "['Kiel']"
+  },
+  {
+    "id": "nomiracl-test-6",
+    "question": "What is the average summer temperature in Mecca?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.6483229696750641,
+      0.8048587441444397,
+      0.0,
+      0.0,
+      0.3,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-207",
+    "question": "In what city was Sebastian Hofmann born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.5084387958049774,
+      0.9875797629356384,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the city of Sebastian Hofmann's birth. According to one source, he was born in Mexico City, as his parents were living there at the time of his birth. However, another source confirms that he was indeed born in Sinsheim, as evidenced by his birth certificate, and that his parents were residents of Sinsheim at the time of his birth. Additionally, Sebastian himself has mentioned in interviews that he grew up in Sinsheim and has fond memories of his childhood there. Therefore, the answer to the question is unclear, and it is not possible to determine the city of Sebastian Hofmann's birth with certainty.",
+    "gold_answer": "['Sinsheim']"
+  },
+  {
+    "id": "faithdial-disc-41",
+    "question": "Yes but I am afraid it might be stressful. Do you think so?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.65
+    ],
+    "generated_text": "While the available evidence suggests that paramedics do have a significant scope of practice, including autonomous decision making, it's also possible that this autonomy may come with its own set of challenges and stressors. However, without more specific data on the experiences of paramedics in different countries, it's difficult to say for certain whether the job is stressful or not.",
+    "gold_answer": "I don't really know. The scope of a paramedic's job varies, though it usually involves autonomous decision making regarding patients' emergency care."
+  },
+  {
+    "id": "faithdial-disc-16",
+    "question": "Oh, that's cool. I didn't know that. When did it start?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "Well, it's difficult to pinpoint an exact start date, but it appears that cheerleading gained significant global attention around the late 1990s. The ESPN broadcast in 1997 and the release of the film \"Bring It On\" in 2000 seem to have contributed to its increased visibility worldwide. However, it's possible that cheerleading was being practiced and performed in various forms before that, but the available evidence suggests that the late 1990s were a pivotal time for its global presentation.",
+    "gold_answer": "I don't actually know, but in 1997, ESPN broadcast an international competition for cheerleading."
+  },
+  {
+    "id": "nomiracl-test-0",
+    "question": "When was the Screen Actors Guild founded?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4469640851020813,
+      0.9888706803321838,
+      0.0,
+      0.0,
+      0.3,
+      0.35
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "conflictqa-test-243",
+    "question": "In what city was Zsuzsanna N\u00e9meth born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.6103499531745911,
+      0.9892443418502808,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Zsuzsanna N\u00e9meth. According to the first passage, Budapest is the capital and largest city of Hungary, implying that N\u00e9meth was born there. However, the second passage states that N\u00e9meth was born in R\u00edo de Janeiro, Brazil, citing her birth certificate and her parents' confirmation. Additionally, N\u00e9meth has spoken publicly about her childhood in Brazil. Therefore, the answer to the question is that there is a conflict between the sources, and it is unclear in which city Zsuzsanna N\u00e9meth was born.",
+    "gold_answer": "['Budapest', 'Buda Pest', 'Buda-Pest', 'Budape\u0161\u0165', 'Budapesta', 'Budapeszt', 'Buda', 'Ofen', 'Bud\u00edn', 'Budim', 'Budon', 'Pest', 'Pe\u0161\u0165', 'Pe\u0161ta', '\u00d3buda', 'Alt-Ofen', 'K\u0151b\u00e1nya']"
+  },
+  {
+    "id": "faithdial-disc-47",
+    "question": "That's called a play, right? I don't know a lot of technical terms of the game.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1,
+      0.8
+    ],
+    "generated_text": "Actually, it's called a down, not a play. A down is one of the four chances the offense has to advance the ball 10 yards.",
+    "gold_answer": "I don't know what constitutes a \"play\", but the offense gets four of them to move forward at least 10 yards. If they don't, the other team gets the ball."
+  },
+  {
+    "id": "faithdial-disc-4",
+    "question": "I am a huge fan of the Walking Dead TV series. Do you follow it?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.75
+    ],
+    "generated_text": "I'm familiar with the show, but I don't have personal preferences or viewing habits. However, I can tell you that the show's lead character, Rick Grimes, played by Andrew Lincoln, is a sheriff's deputy who finds himself in a world overrun by zombies, also known as \"walkers.\"",
+    "gold_answer": "I don't follow it but I know the main lead is Rick Grimes, a sheriff deputy who is played by Andrew Lincoln."
+  },
+  {
+    "id": "conflictqa-test-229",
+    "question": "In what city was V\u00edctor Rab\u00fa born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.7163113653659821,
+      0.99154132604599,
+      0.5,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of V\u00edctor Rab\u00fa. According to the first passage, V\u00edctor Rab\u00fa's birthplace in Havana may have influenced his upbringing and shaped his perspective on the world. However, the second passage states that V\u00edctor Rab\u00fa was born in Agen, a small town in the southwestern region of France, according to official records and his parents' confirmation. Therefore, the answer to the question is unclear due to the conflicting information.",
+    "gold_answer": "['Agen']"
+  },
+  {
+    "id": "nomiracl-test-9",
+    "question": "\u2018CAPSTONE\u2019 is a satellite that was released by what space agency?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.7255407571792603,
+      0.975681722164154,
+      0.0,
+      0.0,
+      0.3,
+      0.55
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-5",
+    "question": "When did nation states start existing in Europe?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.5941990613937378,
+      0.9613695740699768,
+      0.0,
+      0.0,
+      0.3,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-ans-23",
+    "question": "It is amazing. They formed in 1985 in Las Angeles, Ca.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "While the available evidence suggests that the twin albums \"Use Your Illusion I\" and \"Use Your Illusion II\" were commercially successful, it does not provide direct information about the band's formation or their overall impact. However, it is reported that the band formed in 1985 in Los Angeles, CA, which is consistent with the information provided.",
+    "gold_answer": "Have you heard about their twin albums debuted at 1991? They have sold 35 million copies combined."
+  },
+  {
+    "id": "faithdial-ans-7",
+    "question": "I guess that would be some concentrated protein..",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.4
+    ],
+    "generated_text": "It appears that egg-based protein powders were marketed to bodybuilders and athletes in the 1950s, but I wouldn't say that's a definitive conclusion. The evidence suggests a possible connection, but it's also possible that other factors were at play. If I had to hedge my bet, I'd say that egg-based protein powders may have been a concentrated source of protein, but we can't be entirely certain without more information.",
+    "gold_answer": "Speaking of protein, did you know that egg-based protein powders began to be popularized by Irvin P. Johnson in the 1950s"
+  },
+  {
+    "id": "faithdial-ans-8",
+    "question": "My favorite color is green.  I love Money, green lights when i am driving, and the color of plants.  Green is fantastic!!!",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      1.1
+    ],
+    "generated_text": "It seems you have a fondness for the color green.",
+    "gold_answer": "Well, that's cool. It is between yellow and blue on the visible spectrum."
+  },
+  {
+    "id": "conflictqa-test-208",
+    "question": "In what city was Kalevi Kull born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.34877312183380127,
+      0.8996128439903259,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "The retrieved sources disagree on the birthplace of Kalevi Kull. According to one source, he was born in Tallinn, while another source states that he was born in Derpt (now known as Tartu). This discrepancy cannot be resolved based on the provided information.",
+    "gold_answer": "['Tartu', 'Dorpat', 'D\u00f6rpt', 'Derpt', 'Tarbatu', 'Jurjev', 'Tartto', 'Tartus']"
+  },
+  {
+    "id": "faithdial-disc-1",
+    "question": "I love to buy clothes online, I never do it in person.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "Based on the available evidence, it appears that most major retailers prioritize opening early and offering promotional sales, which might suggest that they value in-person shopping experiences. However, it's also possible that these early hours and sales are intended to drive online sales, as customers may be more likely to shop online after seeing in-store promotions. Without more information, it's difficult to say for certain.",
+    "gold_answer": "Not even when the retailers open very early and offer promotional sales ?"
+  },
+  {
+    "id": "faithdial-ans-22",
+    "question": "Have you heard of the band Guns N' Roses?",
+    "gold_action": "ANSWER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.45
+    ],
+    "generated_text": "Yes.",
+    "gold_answer": "I do know some facts about them, for example, Guns N' Roses has 6 studio albums and has sold more than 100 million records around the globe."
+  },
+  {
+    "id": "conflictqa-test-239",
+    "question": "In what city was Grant Bramwell born?",
+    "gold_action": "DISCLOSE",
+    "predicted_action": "DISCLOSE",
+    "features": [
+      0.577029287815094,
+      0.990388810634613,
+      0.0,
+      0.0,
+      0.2,
+      0.35
+    ],
+    "generated_text": "Based on the retrieved sources, there is a conflict in the information. According to the first passage, Auckland is the largest city in New Zealand and is known for its beautiful harbors, diverse culture, and vibrant city life. However, the second passage states that Grant Bramwell was born in Gisborne, as evidenced by his birth certificate and confirmed by his parents.\n\nTherefore, the answer to the question is: Gisborne.",
+    "gold_answer": "['Gisborne', 'Gisborne, New Zealand']"
+  },
+  {
+    "id": "faithdial-disc-23",
+    "question": "It's an exciting job that allows me to do all the financial processes in an orderly manner. I've never though about it but do you know how old accounting is?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      1.5
+    ],
+    "generated_text": "Well, based on the available information, it appears that the modern field of accounting was established by Luca Pacioli in 1494. However, it's difficult to say with certainty whether this marks the beginning of accounting as a whole, or if there were earlier forms of accounting that existed before Pacioli's work. It's also possible that the field of accounting evolved over time and Pacioli's work was a significant milestone in its development. So, while 1494 is a notable date in the history of accounting, it's hard to say exactly how old accounting is as a discipline.",
+    "gold_answer": "Yes, the modern field of it was established by Luca Pacioli in 1494."
+  },
+  {
+    "id": "faithdial-ans-26",
+    "question": "I like wearing cardigans, they make me feel fancy. Do you know anything cool about them?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.8
+    ],
+    "generated_text": "Well, I'm not entirely sure, but it seems that cardigans have undergone some design changes over time. I couldn't find any information that suggests they're typically worn open by design, but it's possible that some modern versions have a more relaxed fit or a different style that doesn't require buttons. It's also worth noting that the term \"cardigan\" can refer to a specific type of garment, so it's possible that the one you're thinking of is a bit different from the traditional cardigan. As for feeling fancy, I'm sure that's a great way to feel when wearing a cardigan!",
+    "gold_answer": "One thing I know is that there is a modern version that doesn't have any buttons."
+  },
+  {
+    "id": "faithdial-disc-38",
+    "question": "Which breeds are crossed? Is one a poodle?",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      0.4
+    ],
+    "generated_text": "The passages do not specify the breeds that are crossed.",
+    "gold_answer": "I don't have that information but the name was coined in 1992 as an analogy to \"Labradoodle\"."
+  },
+  {
+    "id": "faithdial-ans-35",
+    "question": "Yes, I love it, and I also like that people have not tried on the clothes before you",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      1.0,
+      0.1,
+      0.9
+    ],
+    "generated_text": "Based on the available evidence, it appears that online shopping allows consumers to purchase goods or services without the need for in-person interactions, such as trying on clothes. However, it's worth noting that the passage does not explicitly state that people have not tried on clothes before purchasing them online, but rather that online shopping allows consumers to directly buy goods or services from a seller over the Internet. Therefore, I would say that it is possible that people may not have tried on clothes before purchasing them online, but it's not a certainty.",
+    "gold_answer": "I have never heard about this information about clothing before, what I do know is that you can buy products from the online seller using a web browser."
+  },
+  {
+    "id": "nomiracl-test-7",
+    "question": "What is the most commonly spoken dialect of Arabic?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.5136357247829437,
+      0.9898401498794556,
+      0.0,
+      0.0,
+      0.3,
+      0.45
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-12",
+    "question": "What is the size by area of the North Sea?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.4891754984855652,
+      0.9654373526573181,
+      0.0,
+      0.0,
+      0.3,
+      0.5
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "nomiracl-test-20",
+    "question": "Which Japanese manga has characters Mitsuru and Megumu?",
+    "gold_action": "ABSTAIN",
+    "predicted_action": "ABSTAIN",
+    "features": [
+      0.7107859551906586,
+      0.9797502756118774,
+      0.0,
+      0.0,
+      0.3,
+      0.4
+    ],
+    "generated_text": "I cannot answer based on the provided passages.",
+    "gold_answer": ""
+  },
+  {
+    "id": "faithdial-disc-39",
+    "question": "Oh ok. It is a cute name. I was hoping to get one that is a puppy.",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.85
+    ],
+    "generated_text": "Well, I wouldn't say that's a guarantee. According to the information, Monica Dickens bred the Goldendoodle in 1969, but I couldn't find any information about the breed's availability as puppies. It's possible that they may be available, but I wouldn't want to get your hopes up without more confirmation.",
+    "gold_answer": "I see, well another thing about them was that Monica Dickens first bred them in 1969."
+  },
+  {
+    "id": "faithdial-ans-6",
+    "question": "I have never heard of him, what are some other bodybuilders ?",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.6
+    ],
+    "generated_text": "I'm not sure if I should mention other bodybuilders, as I don't want to jump to conclusions or provide unverified information. However, I can say that there are several notable bodybuilders who have been associated with various training methods and philosophies, such as Eugen Sandow, Steve Reeves, and Reg Park, among others. But I want to emphasize that I'm not aware of any concrete evidence linking them to the use of \"beef juice\" or \"beef extract\" as a recovery aid.",
+    "gold_answer": "Well, I can tell you about Earle Liederman, who advocated the use of beef extract t enhance muscle recovery"
+  },
+  {
+    "id": "faithdial-ans-28",
+    "question": "I wonder who came up with the idea of a cardigan.",
+    "gold_action": "ANSWER",
+    "predicted_action": "DISCLAIMER",
+    "features": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.1,
+      0.55
+    ],
+    "generated_text": "While Coco Chanel is often credited with popularizing cardigans for women, it's unclear whether she was the one who actually came up with the idea of a cardigan. The passage suggests that she may have been instrumental in making cardigans more acceptable for women, but it doesn't provide direct evidence that she was the originator of the concept. It's possible that cardigans were already a part of women's fashion before Chanel's involvement, and she simply helped to popularize them.",
+    "gold_answer": "I know that Coco Chanel is credited with popularizing cardigans for women."
+  },
+  {
+    "id": "faithdial-disc-13",
+    "question": "That, and it's the color of the calm sea and the clear sky. But i still preffer everything green! the Hulk, Green Bay Packers uniform, Nigeria home kit for the FIFA world cup 2018",
+    "gold_action": "DISCLAIMER",
+    "predicted_action": "ANSWER",
+    "features": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.1,
+      1.7
+    ],
+    "generated_text": "Green.",
+    "gold_answer": "Do you mean the Green Bay Packers football team from Wisconsin?"
+  }
+]
