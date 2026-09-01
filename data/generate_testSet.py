@@ -87,10 +87,10 @@ def generate_final_testset():
     except Exception as e:
         print(f"  [Warning] Could not load ConflictQA: {e}")
 
-    # 3. FaithDial (Target DISCLAIMER, fill rest with ANSWER, up to 533)
+    # 3. FaithDial (Target DISCLAIMER, fill rest with ANSWER, train split)
     try:
-        print("Loading FaithDial (Test Split) - Targeting DISCLAIMER...")
-        path = hf_hub_download("McGill-NLP/FaithDial", "data/test.json", repo_type="dataset")
+        print("Loading FaithDial (Train Split) - Targeting DISCLAIMER...")
+        path = hf_hub_download("McGill-NLP/FaithDial", "data/train.json", repo_type="dataset")
         with open(path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             

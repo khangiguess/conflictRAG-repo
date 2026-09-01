@@ -15,7 +15,7 @@ def generate_dev_data():
     print("Extracting 600 DISJOINT dev samples using native splits where available...")
     all_examples = []
 
-    # 1. NoMIRACL (Take 150 from native DEV split)
+    # 1. NoMIRACL (Take from native DEV split)
     try:
         print("Loading NoMIRACL (Dev Split)...")
         repo = "miracl/nomiracl"
@@ -62,7 +62,7 @@ def generate_dev_data():
     except Exception as e:
         print(f"  [Warning] Could not load NoMIRACL: {e}")
 
-    # 2. ConflictQA (Take first 150 for dev, as it has no native splits)
+    # 2. ConflictQA (Take first for dev, as it has no native splits)
     try:
         print("Loading ConflictQA...")
         api = HfApi()
@@ -85,7 +85,7 @@ def generate_dev_data():
     except Exception as e:
         print(f"  [Warning] Could not load ConflictQA: {e}")
 
-    # 3. FaithDial (Take 150 from native VALIDATION split)
+    # 3. FaithDial (Take from native VALIDATION split)
     try:
         print("Loading FaithDial (Validation Split)...")
         path = hf_hub_download("McGill-NLP/FaithDial", "data/valid.json", repo_type="dataset")
