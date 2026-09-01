@@ -1,8 +1,9 @@
 import numpy as np
 import scipy.sparse
+import torch
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sentence_transformers import SentenceTransformer, CrossEncoder
-from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 from langdetect import detect
 import config
 
@@ -12,8 +13,10 @@ class FeatureExtractor:
         self.embedder = SentenceTransformer(config.EMBEDDING_MODEL, device=config.DEVICE)
         self.nli_model = CrossEncoder(config.NLI_MODEL, device=config.DEVICE)
         
-        # FIX 1: Use actual HuggingFace QA pipeline for span extraction
-        self.qa_extractor = pipeline("question-answering", model=config.QA_MODEL, device=0 if config.DEVICE=="cuda" else -1)
+        # FIX: Bypass transformers pipeline and load AutoModelForQuestionAnswering directly
+        self.qa_tokenizer = AutoTokenizer.from_pretrained(config.QA_MODEL)
+        self.qa_model = AutoModelForQuestionAnswering.from_pretrained(config.QA_MODEL).to(config.DEVICE)
+        self.qa_model.eval()
         
         # Dynamically find the contradiction index
         self.nli_labels = self.nli_model.model.config.id2label
@@ -41,13 +44,24 @@ class FeatureExtractor:
             max_contradiction = float(np.max(contradiction_probs))
                     
         # --- Formula 3: Semantic Claim Support S(a, P) ---
-        # Extract the actual answer span, then embed it
         best_passage = passages[0]
         answer_span = question # fallback
+        
         try:
-            qa_result = self.qa_extractor(question=question, context=best_passage)
-            answer_span = qa_result['answer']
-        except:
+            # FIX: Direct inference instead of pipeline
+            inputs = self.qa_tokenizer(question, best_passage, return_tensors='pt', truncation=True, max_length=512).to(config.DEVICE)
+            with torch.no_grad():
+                outputs = self.qa_model(**inputs)
+            
+            # Get the start and end indices of the answer span
+            answer_start = torch.argmax(outputs.start_logits)
+            answer_end = torch.argmax(outputs.end_logits) + 1
+            
+            # Decode the answer span
+            inputs_ids = inputs['input_ids'][0]
+            answer_span = self.qa_tokenizer.decode(inputs_ids[answer_start:answer_end])
+            
+        except Exception as e:
             pass # Fallback to question if QA model fails
             
         answer_embedding = self.embedder.encode([answer_span], convert_to_numpy=True)[0]
@@ -57,7 +71,6 @@ class FeatureExtractor:
         
         # --- Formula 4: Language AND Domain Mismatch L(q, P) ---
         mismatch_flag = 0
-        # Language check
         try:
             q_lang = detect(question)
             p_langs = [detect(p) for p in passages]
@@ -66,19 +79,15 @@ class FeatureExtractor:
         except:
             pass
             
-        # Domain check (TF-IDF vocabulary overlap)
         try:
             vectorizer = TfidfVectorizer()
             tfidf_matrix = vectorizer.fit_transform([question] + passages)
-            # Cosine similarity between query (row 0) and passages (row 1:)
             cos_sims = (tfidf_matrix[0:1] * tfidf_matrix[1:].T).toarray()[0]
-            # If the best passage has < TF-IDF overlap, it's a domain mismatch
             if np.max(cos_sims) < 0.1:
                 mismatch_flag = 1
         except:
             pass
 
-        # Features 5 & 6
         k_norm = k / 10.0
         query_len_norm = len(question.split()) / 20.0
 
