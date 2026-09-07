@@ -1,3 +1,6 @@
+import sys
+sys.modules['apex'] = None
+sys.modules['apex.normalization'] = None
 import os
 import json
 import requests
@@ -14,13 +17,13 @@ except LookupError:  # <-- CHANGE THIS LINE
 # ==============================================================================
 # CONFIGURATION
 # ==============================================================================
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 T5_MODEL_PATH = os.path.join(BASE_DIR, "local_models", "checkpoint-7059")
-DATA_PATH = os.path.join(BASE_DIR, "data", "pilot_testset.jsonl")
-RESULTS_PATH = os.path.join(BASE_DIR, "results", "crag_pilot_testset_results.json")
+DATA_PATH = os.path.join(BASE_DIR, "data", "test_set_1.jsonl")
+RESULTS_PATH = os.path.join(BASE_DIR, "results", "crag_test_set_1_results.json")
 
 # Llama.cpp Server API
-LLM_API_URL = "http://127.0.0.1:8080/v1/chat/completions"
+LLM_API_URL = "http://127.0.0.1:8081/v1/chat/completions"
 
 # CRAG Thresholds (Static-CRAG adaptation)
 UPPER_THRESHOLD = 0.5  # If score > 0.5 -> CORRECT
