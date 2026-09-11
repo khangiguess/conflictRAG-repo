@@ -81,7 +81,7 @@ class FeatureExtractor:
             vectorizer = TfidfVectorizer()
             tfidf_matrix = vectorizer.fit_transform([question] + passages)
             cos_sims = (tfidf_matrix[0:1] * tfidf_matrix[1:].T).toarray()[0]
-            if np.max(cos_sims) < 0.1:  # Theoretical default
+            if np.max(cos_sims) < 0.1:  # TF-IDF value
                 mismatch_flag = 1
         except:
             pass

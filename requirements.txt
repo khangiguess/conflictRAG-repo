@@ -4,5 +4,6 @@ transformers==4.44.2
 protobuf==3.20.3
 huggingface-hub
 nltk
+sentencepiece
 langdetect
 datasets

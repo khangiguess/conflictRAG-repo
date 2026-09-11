@@ -5,7 +5,7 @@ import os
 class PolicyLayer:
     def __init__(self):
         ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        model_path = os.path.join(ROOT_DIR, "models", "logistic_policy.joblib")
+        model_path = os.path.join(ROOT_DIR, "models", "policy_dev_set_natural.joblib")
         if os.path.exists(model_path):
             self.model = joblib.load(model_path)
             self.theta = 0.55 #Optimal threshold

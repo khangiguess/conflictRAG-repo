@@ -13,7 +13,8 @@ models/*.joblib
 *.gguf                                                                                                                                                                             
                                                                                                                                                                                 
 # SSH Keys & Secrets                                                                                                                                                               
-*.key                                                                                                                                                                              
+*.key  
+lxbach.key                                                                                                                                                                            
                                                                                                                                                                                 
 # Large Data                                                                                                                                                                       
 data/t5_training_data/                                                                                                                                                             

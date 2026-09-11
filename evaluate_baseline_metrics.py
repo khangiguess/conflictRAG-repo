@@ -4,8 +4,10 @@ import re
 import string
 import collections
 
+from framework.logger import log_run
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-RESULTS_PATH = os.path.join(BASE_DIR, "results", "crag_baseline_results.json")
+RESULTS_PATH = os.path.join(BASE_DIR, "results", "test_set_1_results.json")
 
 def normalize_text(s):
     """Lower text and remove punctuation, articles, and extra whitespace."""
@@ -105,6 +107,27 @@ def main():
     print(f"Conflict Disclosure F1:   0.00%  (CRAG lacks a DISCLOSE action)")
     print("="*40)
     print("\nNOTE: Copy these numbers directly into Table 1 of your paper.")
+
+
+    try:
+        # Calculate Macro F1 for ConflictRAG
+        macro_f1 = sum(pilot['class_metrics'][cat]['F1'] for cat in ["ABSTAIN", "DISCLOSE", "DISCLAIMER", "ANSWER"]) / 4
+        
+        log_run(
+            run_name="Final Test Set Evaluation",
+            data_path="test_set_1.jsonl",
+            parameters={"tau_s": 0.60, "tfidf": 0.08, "C": 10.0, "theta": 0.50},
+            metrics={
+                "overall_accuracy": pilot['accuracy'],
+                "macro_f1": macro_f1,
+                "abstain_f1": pilot['class_metrics']['ABSTAIN']['F1'],
+                "disclose_f1": pilot['class_metrics']['DISCLOSE']['F1'],
+                "disclaimer_f1": pilot['class_metrics']['DISCLAIMER']['F1'],
+                "answer_f1": pilot['class_metrics']['ANSWER']['F1']
+            }
+        )
+    except Exception as e:
+        print(f"Could not log run: {e}")
 
 if __name__ == "__main__":
     main()

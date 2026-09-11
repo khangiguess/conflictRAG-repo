@@ -13,6 +13,9 @@ QA_MODEL = "deepset/minilm-uncased-squad2"
 # Hyperparameters
 TAU_S = 0.65  # Threshold for semantic claim support
 
+# Routing Configuration
+ROUTING_MODE = "SYSTEM_ONLY" # Options: "SYSTEM_ONLY", "LLM_ONLY", "HYBRID_OVERRIDE"
+
 # Hardware Settings
 DEVICE = "cuda" # Offloads embedding and NLI math to gpu
 

@@ -9,11 +9,11 @@ from sklearn.metrics import classification_report
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(ROOT_DIR)
 
-from feature_extractor import FeatureExtractor
-import config
+from framework.feature_extractor import FeatureExtractor
+import framework.config
 
-DEV_DATA_PATH = os.path.join(ROOT_DIR, "data", "dev_policy.jsonl")
-MODEL_SAVE_PATH = os.path.join(ROOT_DIR, "models", "logistic_policy.joblib")
+DEV_DATA_PATH = os.path.join(ROOT_DIR, "data", "dev_set_natural.jsonl")
+MODEL_SAVE_PATH = os.path.join(ROOT_DIR, "models", "policy_dev_set_natural.joblib")
 
 def main():
     print("Initializing Feature Extractor...")
@@ -44,7 +44,7 @@ def main():
     
     print("\nTraining Logistic Regression Policy (One-vs-Rest)...")
     # The fix happens in the evaluation, not the training
-    model = LogisticRegression(multi_class='ovr', max_iter=1000, random_state=42, class_weight='balanced')
+    model = LogisticRegression(multi_class='ovr', max_iter=1000, random_state=42, class_weight='balanced', C=1.0)
     model.fit(X, y)
     
     train_acc = model.score(X, y) * 100
