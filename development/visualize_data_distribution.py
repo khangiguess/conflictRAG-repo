@@ -9,9 +9,9 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(ROOT_DIR)
 
 DATA_DIR = os.path.join(ROOT_DIR, "data")
-RESULTS_DIR = os.path.join(ROOT_DIR, "results")
-INPUT_PATH = os.path.join(DATA_DIR, "pilot_testset.jsonl")
-output_path = os.path.join(RESULTS_DIR, "pilot_testset_distribution_pie.png")
+RESULTS_DIR = os.path.join(ROOT_DIR, "data")
+INPUT_PATH = os.path.join(DATA_DIR, "dev_set_natural.jsonl")
+output_path = os.path.join(RESULTS_DIR, "dev_set_natural_distribution_pie.png")
 
 def main():
     if not os.path.exists(INPUT_PATH):
@@ -72,7 +72,7 @@ def main():
         autotext.set_color('white')
 
     ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
-    plt.title("ConflictRAG Pilot Test Set Distribution", fontsize=14, pad=20)
+    plt.title("ConflictRAG Development Set Natural Distribution", fontsize=14, pad=20)
     
     # Save the plot
     os.makedirs(RESULTS_DIR, exist_ok=True)
