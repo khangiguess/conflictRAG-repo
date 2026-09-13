@@ -14,7 +14,7 @@ from tqdm import tqdm
 ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(ROOT_DIR)
 
-from framework.experiment_logger import log_run
+from framework.logger import log_run
 from framework.feature_extractor import FeatureExtractor
 import framework.config
 
@@ -120,10 +120,10 @@ def main():
     print("\nPhase 2: Running Joint Grid Search (5-Fold CV)...")
     
     # Hyperparameter Grids
-    tau_values = [0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
-    tfidf_values = [0.05, 0.08, 0.10, 0.12, 0.15]
-    c_values = [0.01,0.1, 1.0, 10.0]
-    theta_values = [0.30, 0.40, 0.50, 0.60, 0.70]
+    tau_values = [0.20, 0.30, 0.40,0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
+    tfidf_values = [0.05, 0.06, 0.07, 0.08, 0.09, 0.10, 0.12, 0.15]
+    c_values = [0.001, 0.01, 0.1, 1.0, 10.0]
+    theta_values = [0.30, 0.40, 0.45, 0.50, 0.55, 0.60, 0.70, 0.80]
     
     best_f1 = 0.0
     best_params = {}
