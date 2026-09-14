@@ -44,7 +44,7 @@ def main():
     
     print("\nTraining Logistic Regression Policy (One-vs-Rest)...")
     # The fix happens in the evaluation, not the training
-    model = LogisticRegression(multi_class='ovr', max_iter=1000, random_state=42, class_weight='balanced', C=1.0)
+    model = LogisticRegression(multi_class='ovr', max_iter=1000, random_state=42, class_weight='balanced', C=10.0)
     model.fit(X, y)
     
     train_acc = model.score(X, y) * 100

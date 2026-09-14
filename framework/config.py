@@ -11,7 +11,7 @@ NLI_MODEL = "cross-encoder/nli-MiniLM2-L6-H768"
 QA_MODEL = "deepset/minilm-uncased-squad2"
 
 # Hyperparameters
-TAU_S = 0.65  # Threshold for semantic claim support
+TAU_S = 0.6  # Threshold for semantic claim support
 
 # Hardware Settings
 DEVICE = "cuda" # Offloads embedding and NLI math to gpu

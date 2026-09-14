@@ -8,7 +8,7 @@ class PolicyLayer:
         model_path = os.path.join(ROOT_DIR, "models", "logistic_policy.joblib")
         if os.path.exists(model_path):
             self.model = joblib.load(model_path)
-            self.theta = 0.55 #Optimal threshold
+            self.theta = 0.5 #Optimal threshold
             print("Loaded trained Logistic Regression policy.")
         else:
             self.model = None
