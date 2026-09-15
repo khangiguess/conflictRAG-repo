@@ -12,8 +12,8 @@ sys.path.append(ROOT_DIR)
 from framework.feature_extractor import FeatureExtractor
 import framework.config
 
-DEV_DATA_PATH = os.path.join(ROOT_DIR, "data", "dev_set_natural.jsonl")
-MODEL_SAVE_PATH = os.path.join(ROOT_DIR, "models", "policy_dev_set_natural.joblib")
+DEV_DATA_PATH = os.path.join(ROOT_DIR, "data", "dev_set_1.jsonl")
+MODEL_SAVE_PATH = os.path.join(ROOT_DIR, "models", "policy_dev_set_1.joblib")
 
 def main():
     print("Initializing Feature Extractor...")
