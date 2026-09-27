@@ -1,5 +1,5 @@
 import requests
-import config
+from framework import config
 
 class ResponseGenerator:
     def __init__(self):

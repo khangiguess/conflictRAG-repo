@@ -1,4 +1,4 @@
-scikit-learn
+scikit-learn==1.5.1
 sentence-transformers==2.7.0
 transformers==4.44.2
 protobuf==3.20.3
@@ -7,3 +7,6 @@ nltk
 sentencepiece
 langdetect
 datasets
+torch
+tqdm
+langdetect

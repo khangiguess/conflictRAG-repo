@@ -10,8 +10,12 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 NLI_MODEL = "cross-encoder/nli-MiniLM2-L6-H768"
 QA_MODEL = "deepset/minilm-uncased-squad2"
 
-# Hyperparameters
-TAU_S = 0.6  # Threshold for semantic claim support
+# Locked hyperparameters (Joint Grid Search, dev_set_natural, see results/log.jsonl)
+TAU_S = 0.6          # Threshold for semantic claim support
+TFIDF_THRESH = 0.09  # Domain-mismatch TF-IDF overlap threshold
+C = 10.0             # Logistic Regression regularization
+THETA = 0.50         # ANSWER confidence gate
+RANDOM_STATE = 42
 
 # Hardware Settings
 DEVICE = "cuda" # Offloads embedding and NLI math to gpu
