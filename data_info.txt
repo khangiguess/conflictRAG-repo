@@ -1,0 +1,15 @@
+Test_set_1: 3073 samples
+Abstain: 442 (RGB + NoMIRACL)
+Disclaimer: 301 (59 pubmedQA + 242 faithdial)
+Disclose: 730 (500 conflictQA + 230 WhoQA)
+Answer: 1600 (500 pubmedQA + 1030 faithdial + 70 whoQA)
+
+
+Out-of-distribution (OOD): NOMIRACL, WhoQA
+
+
+Dev_set_natural: 1000 samples
+Abstain: 140 (RGB)
+Disclaimer: 100 (FaithDial)
+Disclose: 240 (ConflictQA)
+Answer: 520 (FaithDial/PubmedQA)

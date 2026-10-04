@@ -29,7 +29,7 @@ def main():
     # 3. Print the raw numbers and percentages
     total = len(dev_data)
     print("\n" + "="*50)
-    print("DEVELOPMENT SET DATA DISTRIBUTION")
+    print("DEVELOPMENT SET NATURAL DATA DISTRIBUTION")
     print("="*50)
     print(f"Total Examples: {total}\n")
     
