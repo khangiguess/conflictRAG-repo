@@ -10,9 +10,10 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 NLI_MODEL = "cross-encoder/nli-MiniLM2-L6-H768"
 QA_MODEL = "deepset/minilm-uncased-squad2"
 
-# Locked hyperparameters (Joint Grid Search, dev_set_natural, see results/log.jsonl)
-TAU_S = 0.6          # Threshold for semantic claim support
-TFIDF_THRESH = 0.09  # Domain-mismatch TF-IDF overlap threshold
+# Locked hyperparameters (Joint Grid Search, fixed NLI index + QA span, dev_set_natural,
+# 2026-10-23 run, mean 5-fold macro F1 = 0.6956 -- see results/log.jsonl)
+TAU_S = 0.2          # Threshold for semantic claim support
+TFIDF_THRESH = 0.10  # Domain-mismatch TF-IDF overlap threshold
 C = 10.0             # Logistic Regression regularization
 THETA = 0.50         # ANSWER confidence gate
 RANDOM_STATE = 42

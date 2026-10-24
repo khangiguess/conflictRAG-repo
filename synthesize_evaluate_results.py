@@ -68,7 +68,7 @@ def compute_metrics(filepath, is_crag=False):
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     # Update these paths to match your actual result files
-    pilot_path = os.path.join(ROOT_DIR, "results", "test_set_1_natural_results.json")
+    pilot_path = os.path.join(base_dir, "results", "test_set_1_results_final.json")
     baseline_path = os.path.join(ROOT_DIR, "results", "vanilla_test_set_1_results.json")
     crag_path = os.path.join(ROOT_DIR, "results", "crag_test_set_1_results.json")
     
