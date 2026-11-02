@@ -7,9 +7,15 @@ from langdetect import detect, LangDetectException
 from framework import config
 
 # Bump whenever extract_raw() semantics change, so cached raw features are invalidated.
+# (Unchanged by the 4D switch: extract_raw() output is identical; only features_from_raw() changed.)
 EXTRACTOR_VERSION = "2026-09-26.1"
 
-FEATURE_NAMES = ["dispersion", "nli_contradiction", "claim_support", "mismatch", "k_norm", "query_len_norm"]
+# 4D policy features. Passage count k and query length were removed from the policy input
+# because the 6D ablation showed they act as a dataset-identity shortcut (k + len alone
+# matched the full model). They are still recorded in extract_raw() for diagnostics and the
+# shortcut-control baseline (shortcut_features_from_raw), but are never fed to the policy.
+FEATURE_NAMES = ["dispersion", "nli_contradiction", "claim_support", "mismatch"]
+N_FEATURES = len(FEATURE_NAMES)
 
 
 class FeatureExtractor:
@@ -94,7 +100,7 @@ class FeatureExtractor:
 
 
 def features_from_raw(raw, tau_s=None, tfidf_thresh=None):
-    """Builds the 6D feature vector from extract_raw() output."""
+    """Builds the 4D policy feature vector [D, C-hat, S, L] from extract_raw() output."""
     tau_s = config.TAU_S if tau_s is None else tau_s
     tfidf_thresh = config.TFIDF_THRESH if tfidf_thresh is None else tfidf_thresh
 
@@ -108,6 +114,10 @@ def features_from_raw(raw, tau_s=None, tfidf_thresh=None):
         float(raw["nli_contradiction"]),
         claim_support,
         mismatch_flag,
-        raw["k"] / 10.0,
-        raw["query_len"] / 20.0,
     ])
+
+
+def shortcut_features_from_raw(raw):
+    """[k/10, query_len/20]. Diagnostic only: used as the shortcut-control baseline in the
+    ablation, never as policy input."""
+    return np.array([raw["k"] / 10.0, raw["query_len"] / 20.0])

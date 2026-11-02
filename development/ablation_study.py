@@ -1,5 +1,9 @@
 """
-Leave-one-out ablation study for the ConflictRAG policy layer (see PLAN.md).
+Leave-one-out ablation study for the 4D ConflictRAG policy [D, C-hat, S, L] (see PLAN.md).
+
+Passage count k and query length are NOT policy features (removed because the 6D ablation
+showed they act as a dataset-identity shortcut). They appear here only in the
+"k + len only (shortcut control)" baseline, which the 4D model must beat.
 
 For each variant:
   1. Drop the feature column(s) from the dev features.
@@ -29,7 +33,8 @@ sys.path.append(ROOT_DIR)
 
 from framework import config
 from framework.feature_cache import load_raw_features
-from framework.feature_extractor import FEATURE_NAMES, FeatureExtractor, features_from_raw
+from framework.feature_extractor import (FEATURE_NAMES, FeatureExtractor, features_from_raw,
+                                        shortcut_features_from_raw)
 from framework.logger import log_run
 from framework.policy import gated_predict, make_policy_model
 
@@ -40,28 +45,29 @@ DEV_PATH = os.path.join(ROOT_DIR, "data", "dev_set_natural.jsonl")
 TEST_PATH = os.path.join(ROOT_DIR, "data", "test_set_1.jsonl")
 DEV_RAW_CACHE = os.path.join(ROOT_DIR, "data", "cache", "raw_dev_set_natural.json")
 TEST_RAW_CACHE = os.path.join(ROOT_DIR, "data", "cache", "raw_test_set_1.json")
-RESULTS_PATH = os.path.join(ROOT_DIR, "results", "ablation_results.json")
+RESULTS_PATH = os.path.join(ROOT_DIR, "results", f"{config.RUN_TAG}_ablation_results.json")
 
 LABELS = ["ABSTAIN", "ANSWER", "DISCLAIMER", "DISCLOSE"]
-THETA_VALUES = [0.30, 0.40, 0.45, 0.50, 0.55, 0.60, 0.70, 0.80]  # same grid as joint_grid_search.py
+THETA_VALUES = config.THETA_GRID  # same grid as joint_grid_search.py
 N_FOLDS = 5
 N_BOOTSTRAP = 1000
 
-# Indices: 0=dispersion, 1=nli_contradiction, 2=claim_support, 3=mismatch, 4=k_norm, 5=query_len_norm
-REFERENCE = "Full Model (theta re-tuned)"
+# Column layout of the ablation matrix: 0-3 = the 4D policy features, 4-5 = shortcut
+# diagnostics (never part of the policy).
+# 0=dispersion, 1=nli_contradiction, 2=claim_support, 3=mismatch, 4=k_norm, 5=query_len_norm
+ALL_COLUMNS = FEATURE_NAMES + ["k_norm", "query_len_norm"]
+POLICY_COLS = list(range(len(FEATURE_NAMES)))
+REFERENCE = "Full 4D Model (theta re-tuned)"
 VARIANTS = [
-    {"name": "Full Model (locked theta)", "drop": [], "theta": "locked"},
-    {"name": REFERENCE, "drop": [], "theta": "tune"},
-    {"name": "w/o Dispersion", "drop": [0], "theta": "tune"},
-    {"name": "w/o NLI Contradiction", "drop": [1], "theta": "tune"},
-    {"name": "w/o Claim Support", "drop": [2], "theta": "tune"},
-    {"name": "w/o Mismatch", "drop": [3], "theta": "tune"},
-    {"name": "w/o Passage Count k", "drop": [4], "theta": "tune"},
-    {"name": "w/o Query Length", "drop": [5], "theta": "tune"},
-    # Shortcut controls: k and query length are strongly tied to the source dataset.
-    {"name": "Retrieval signals only (w/o k, len)", "drop": [4, 5], "theta": "tune"},
-    {"name": "k + len only (shortcut control)", "drop": [0, 1, 2, 3], "theta": "tune"},
-    {"name": "w/o Theta Gate (argmax)", "drop": [], "theta": "argmax"},
+    {"name": "Full 4D Model (locked theta)", "use": POLICY_COLS, "theta": "locked"},
+    {"name": REFERENCE, "use": POLICY_COLS, "theta": "tune"},
+    {"name": "w/o Dispersion", "use": [1, 2, 3], "theta": "tune"},
+    {"name": "w/o NLI Contradiction", "use": [0, 2, 3], "theta": "tune"},
+    {"name": "w/o Claim Support", "use": [0, 1, 3], "theta": "tune"},
+    {"name": "w/o Mismatch", "use": [0, 1, 2], "theta": "tune"},
+    {"name": "w/o Theta Gate (argmax)", "use": POLICY_COLS, "theta": "argmax"},
+    # Baseline the 4D model must beat: k and query length alone identify the source dataset.
+    {"name": "k + len only (shortcut control)", "use": [4, 5], "theta": "tune"},
 ]
 
 
@@ -157,9 +163,12 @@ def main():
     dev_records, dev_raw = load_raw_features(DEV_PATH, DEV_RAW_CACHE, FeatureExtractor)
     test_records, test_raw = load_raw_features(TEST_PATH, TEST_RAW_CACHE, FeatureExtractor)
 
-    # Locked tau_s / TF-IDF threshold from config (never tuned here)
-    X_dev = np.array([features_from_raw(r) for r in dev_raw])
-    X_test = np.array([features_from_raw(r) for r in test_raw])
+    # Locked tau_s / TF-IDF threshold from config (never tuned here).
+    # Columns 0-3: 4D policy features; 4-5: shortcut diagnostics (k, query length).
+    def matrix(raws):
+        return np.array([np.concatenate([features_from_raw(r), shortcut_features_from_raw(r)]) for r in raws])
+    X_dev = matrix(dev_raw)
+    X_test = matrix(test_raw)
     y_dev = np.array([r["gold_action"] for r in dev_records])
     y_test = np.array([r["gold_action"] for r in test_records])
     y_test_idx = encode(y_test)
@@ -177,7 +186,7 @@ def main():
 
     results, preds = [], {}
     for v in VARIANTS:
-        keep = [i for i in range(X_dev.shape[1]) if i not in v["drop"]]
+        keep = v["use"]
         Xd, Xt = X_dev[:, keep], X_test[:, keep]
 
         if v["theta"] == "locked":
@@ -197,7 +206,7 @@ def main():
         cls_f1 = per_class_f1(y_test_idx, p_idx)
         res = {
             "name": v["name"],
-            "features": [FEATURE_NAMES[i] for i in keep],
+            "features": [ALL_COLUMNS[i] for i in keep],
             "theta": theta if theta is not None else "argmax",
             "theta_mode": v["theta"],
             "dev_oof_macro_f1": dev_f1,
@@ -255,7 +264,8 @@ def main():
                 "locked_theta": config.THETA, "theta_grid": THETA_VALUES, "n_folds": N_FOLDS,
                 "n_bootstrap": N_BOOTSTRAP, "random_state": config.RANDOM_STATE,
                 "reference": REFERENCE, "dev": os.path.basename(DEV_PATH),
-                "test": os.path.basename(TEST_PATH),
+                "test": os.path.basename(TEST_PATH), "run_tag": config.RUN_TAG,
+                "policy_features": FEATURE_NAMES,
             },
             "results": results,
         }, f, indent=2)
@@ -263,7 +273,7 @@ def main():
 
     for r in results:
         log_run(
-            run_name=f"Ablation: {r['name']}",
+            run_name=f"Ablation ({config.RUN_TAG}): {r['name']}",
             data_path=TEST_PATH,
             parameters={"features": r["features"], "theta": r["theta"], "tau_s": config.TAU_S,
                         "tfidf": config.TFIDF_THRESH, "C": config.C},

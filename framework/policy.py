@@ -3,6 +3,7 @@ import joblib
 import os
 from sklearn.linear_model import LogisticRegression
 from framework import config
+from framework.feature_extractor import N_FEATURES
 
 
 def make_policy_model(C=None):
@@ -30,15 +31,19 @@ def gated_predict(probs, classes, theta):
 
 class PolicyLayer:
     def __init__(self, model_path=None):
-        ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-        model_path = model_path or os.path.join(ROOT_DIR, "models", "policy_dev_set_natural.joblib")
+        model_path = model_path or config.POLICY_MODEL_PATH
         if not os.path.exists(model_path):
             # Fail loudly: the old silent rule-based fallback produced plausible-looking
             # results that were not the logistic policy.
             raise FileNotFoundError(f"Trained policy not found at {model_path}")
         self.model = joblib.load(model_path)
+        if self.model.n_features_in_ != N_FEATURES:
+            raise ValueError(
+                f"Policy at {model_path} expects {self.model.n_features_in_} features, but the "
+                f"extractor produces {N_FEATURES}. Retrain with development/train_policy.py."
+            )
         self.theta = config.THETA
-        print(f"Loaded trained policy from {model_path} (theta={self.theta}).")
+        print(f"Loaded trained policy from {model_path} (theta={self.theta}, {N_FEATURES}D).")
 
     def decide(self, features):
         probs = self.model.predict_proba([features])

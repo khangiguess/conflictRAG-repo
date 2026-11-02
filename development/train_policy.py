@@ -1,7 +1,7 @@
 """
-Trains the final ConflictRAG policy on dev_set_natural with the locked hyperparameters in
-framework/config.py, and saves it to models/policy_dev_set_natural.joblib (the path
-PolicyLayer loads).
+Trains the final 4D ConflictRAG policy [D, C-hat, S, L] on dev_set_natural with the locked
+hyperparameters in framework/config.py, and saves it to models/policy_dev_set_natural_4D.joblib
+(config.POLICY_MODEL_PATH, the path PolicyLayer loads).
 
 Uses the shared FeatureExtractor.extract_raw() + features_from_raw(), and the same raw-feature
 cache as joint_grid_search.py / ablation_study.py, so all three see identical features.
@@ -22,13 +22,13 @@ sys.path.append(ROOT_DIR)
 
 from framework import config
 from framework.feature_cache import load_raw_features
-from framework.feature_extractor import FeatureExtractor, features_from_raw
+from framework.feature_extractor import FEATURE_NAMES, FeatureExtractor, features_from_raw
 from framework.logger import log_run
 from framework.policy import gated_predict, make_policy_model
 
 DEV_DATA_PATH = os.path.join(ROOT_DIR, "data", "dev_set_natural.jsonl")
 RAW_CACHE = os.path.join(ROOT_DIR, "data", "cache", "raw_dev_set_natural.json")
-MODEL_SAVE_PATH = os.path.join(ROOT_DIR, "models", "policy_dev_set_natural.joblib")
+MODEL_SAVE_PATH = config.POLICY_MODEL_PATH  # models/policy_dev_set_natural_4D.joblib
 
 
 def main():
@@ -36,8 +36,9 @@ def main():
     X = np.array([features_from_raw(r) for r in raw])
     y = np.array([r["gold_action"] for r in records])
 
-    params = {"tau_s": config.TAU_S, "tfidf": config.TFIDF_THRESH, "C": config.C, "theta": config.THETA}
-    print(f"\nTraining on {len(y)} dev examples with {params}")
+    params = {"tau_s": config.TAU_S, "tfidf": config.TFIDF_THRESH, "C": config.C, "theta": config.THETA,
+              "features": FEATURE_NAMES}
+    print(f"\nTraining {len(FEATURE_NAMES)}D policy on {len(y)} dev examples with {params}")
 
     # Honest estimate: 5-fold out-of-fold predictions (same folds as the grid search)
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=config.RANDOM_STATE)
@@ -60,7 +61,7 @@ def main():
     print(f"\nTrained policy saved to {MODEL_SAVE_PATH}")
 
     log_run(
-        run_name="Train Policy (dev_set_natural, shared extractor)",
+        run_name=f"Train Policy ({config.RUN_TAG}, dev_set_natural, 4D)",
         data_path=DEV_DATA_PATH,
         parameters=params,
         metrics={"oof_macro_f1": float(oof_f1), "train_macro_f1": float(train_f1)},

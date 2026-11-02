@@ -43,7 +43,7 @@ def main():
     # 1. Initialize components
     print("Initializing ConflictRAG Pipeline...")
     extractor = FeatureExtractor()
-    policy = PolicyLayer()  # This will load logistic_policy.joblib
+    policy = PolicyLayer()  # Loads config.POLICY_MODEL_PATH (policy_dev_set_natural_4D.joblib)
     generator = ResponseGenerator()
     
     results = []
@@ -66,10 +66,10 @@ def main():
         
         print(f"[{i+1}/{len(data)}] Question: {question[:60]}...")
         
-        # Step A: Extract 6D Features
+        # Step A: Extract 4D Features [D, C-hat, S, L]
         features = extractor.extract(question, passages)
         
-        # Step B: Decide Policy (Uses Logistic Regression + 0.65 threshold)
+        # Step B: Decide Policy (Logistic Regression + config.THETA gate)
         predicted_action = policy.decide(features)
         
         # Step C: Generate Response
