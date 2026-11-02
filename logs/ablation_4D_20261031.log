@@ -1,0 +1,153 @@
+Loaded raw features from /root/conflictRAG_server/data/cache/raw_dev_set_natural.json (fingerprint match).
+Loading embedding, QA, and NLI models...
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+Some weights of the model checkpoint at deepset/minilm-uncased-squad2 were not used when initializing BertForQuestionAnswering: ['bert.pooler.dense.bias', 'bert.pooler.dense.weight']
+- This IS expected if you are initializing BertForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+  Extracted 250/3073 from test_set_1.jsonl
+  Extracted 500/3073 from test_set_1.jsonl
+  Extracted 750/3073 from test_set_1.jsonl
+  Extracted 1000/3073 from test_set_1.jsonl
+  Extracted 1250/3073 from test_set_1.jsonl
+  Extracted 1500/3073 from test_set_1.jsonl
+  Extracted 1750/3073 from test_set_1.jsonl
+  Extracted 2000/3073 from test_set_1.jsonl
+  Extracted 2250/3073 from test_set_1.jsonl
+  Extracted 2500/3073 from test_set_1.jsonl
+  Extracted 2750/3073 from test_set_1.jsonl
+  Extracted 3000/3073 from test_set_1.jsonl
+Raw features cached to /root/conflictRAG_server/data/cache/raw_test_set_1.json
+
+Dev: 1000 | Test: 3073 | tau_s=0.3 tfidf=0.2 C=1.0 locked theta=0.4
+====================================================================================================
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+Full 4D Model (locked theta)           theta=0.4     test macro-F1=0.6008
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+Full 4D Model (theta re-tuned)         theta=0.4     test macro-F1=0.6008
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+w/o Dispersion                         theta=0.25    test macro-F1=0.4524
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+w/o NLI Contradiction                  theta=0.4     test macro-F1=0.5742
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+w/o Claim Support                      theta=0.45    test macro-F1=0.5690
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+w/o Mismatch                           theta=0.4     test macro-F1=0.5806
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+w/o Theta Gate (argmax)                theta=argmax  test macro-F1=0.5875
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+k + len only (shortcut control)        theta=0.35    test macro-F1=0.6046
+
+================================================================================================================================
+ABLATION RESULTS (test set, n=3073); delta vs 'Full 4D Model (theta re-tuned)', paired bootstrap B=1000
+================================================================================================================================
+Variant                               |  theta | Macro F1 |     dF1 |            95% CI |     p | ABSTAIN |  ANSWER |  DISCLM | DISCLOSE
+----------------------------------------------------------------------------------------------------------------------------------------
+Full 4D Model (locked theta)          |    0.4 |   0.6008 | +0.0000 |   [+0.000,+0.000] | 1.000 |  0.6737 |  0.8273 |  0.1013 |   0.8008
+Full 4D Model (theta re-tuned)        |    0.4 |   0.6008 | +0.0000 |   [+0.000,+0.000] |     - |  0.6737 |  0.8273 |  0.1013 |   0.8008
+w/o Dispersion                        |   0.25 |   0.4524 | -0.1484 |   [-0.163,-0.135] | 0.000 |  0.6996 |  0.6744 |  0.0993 |   0.3364
+w/o NLI Contradiction                 |    0.4 |   0.5742 | -0.0266 |   [-0.042,-0.012] | 0.000 |  0.5812 |  0.8266 |  0.1006 |   0.7886
+w/o Claim Support                     |   0.45 |   0.5690 | -0.0318 |   [-0.045,-0.020] | 0.000 |  0.6230 |  0.7548 |  0.1313 |   0.7669
+w/o Mismatch                          |    0.4 |   0.5806 | -0.0202 |   [-0.032,-0.008] | 0.000 |  0.6446 |  0.8901 |  0.0000 |   0.7877
+w/o Theta Gate (argmax)               | argmax |   0.5875 | -0.0133 |   [-0.025,-0.004] | 0.004 |  0.6730 |  0.8848 |  0.0000 |   0.7922
+k + len only (shortcut control)       |   0.35 |   0.6046 | +0.0038 |   [-0.019,+0.028] | 0.736 |  0.7674 |  0.7122 |  0.2026 |   0.7361
+================================================================================================================================
+
+Accuracy by source / passage count (test):
+Variant                               | conflictqa|  faithdial|   nomiracl|   pubmedqa|        rgb|      whoqa|        k=1|        k=2|        k=3
+Full 4D Model (locked theta)          |      0.934|      0.779|      0.746|      0.658|      0.640|      0.373|      0.742|      0.714|      0.746
+Full 4D Model (theta re-tuned)        |      0.934|      0.779|      0.746|      0.658|      0.640|      0.373|      0.742|      0.714|      0.746
+w/o Dispersion                        |      0.360|      0.759|      0.877|      0.327|      0.610|      0.117|      0.628|      0.307|      0.877
+w/o NLI Contradiction                 |      0.844|      0.779|      0.462|      0.658|      0.550|      0.767|      0.742|      0.786|      0.462
+w/o Claim Support                     |      0.888|      0.761|      0.670|      0.369|      0.610|      0.373|      0.641|      0.686|      0.670
+w/o Mismatch                          |      0.948|      0.810|      0.725|      0.894|      0.640|      0.300|      0.836|      0.698|      0.725
+w/o Theta Gate (argmax)               |      0.912|      0.810|      0.746|      0.894|      0.630|      0.380|      0.836|      0.703|      0.746
+k + len only (shortcut control)       |      0.946|      0.555|      0.658|      0.640|      0.670|      0.767|      0.581|      0.856|      0.658
+
+Saved to /root/conflictRAG_server/results/test_set_1_4D_ablation_results.json
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl
+Run logged to log.jsonl

@@ -1,0 +1,33 @@
+Loaded raw features from /root/conflictRAG_server/data/cache/raw_dev_set_natural.json (fingerprint match).
+
+Training 4D policy on 1000 dev examples with {'tau_s': 0.3, 'tfidf': 0.2, 'C': 1.0, 'theta': 0.4, 'features': ['dispersion', 'nli_contradiction', 'claim_support', 'mismatch']}
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+
+5-fold out-of-fold report (theta=0.4):
+              precision    recall  f1-score   support
+
+     ABSTAIN       0.84      0.69      0.76       140
+      ANSWER       0.86      0.87      0.86       520
+  DISCLAIMER       0.26      0.25      0.25       100
+    DISCLOSE       0.84      0.91      0.87       240
+
+    accuracy                           0.79      1000
+   macro avg       0.70      0.68      0.69      1000
+weighted avg       0.79      0.79      0.79      1000
+
+/root/miniforge3/envs/conflictrag/lib/python3.11/site-packages/sklearn/linear_model/_logistic.py:1256: FutureWarning: 'multi_class' was deprecated in version 1.5 and will be removed in 1.7. Use OneVsRestClassifier(LogisticRegression(..)) instead. Leave it to its default value to avoid this warning.
+  warnings.warn(
+In-sample macro F1 (optimistic, for reference only): 0.6860
+Out-of-fold macro F1: 0.6870
+
+Trained policy saved to /root/conflictRAG_server/models/policy_dev_set_natural_4D.joblib
+Run logged to log.jsonl
